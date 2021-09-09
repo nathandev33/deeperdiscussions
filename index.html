@@ -7,16 +7,40 @@
     <title>Document</title>
 </head>
 <!-- font-awesome -->
-<!-- <link rel="stylesheet" href="./fontawesome-free-5.12.1-web/css/all.min.css" /> -->
+<link rel="stylesheet" href="./fontawesome-free-5.12.1-web/css/all.min.css" />
 <!-- normalize css -->
 <link rel="stylesheet" href="./normalize.css" />
 <!-- main css -->
 <link rel="stylesheet" href="./main.css">
+
+<style>
+</style>
 <body>
+
+
+    <!-- TOGGLE BUTTON -->
+    <button class="toggle-btn" id="toggle-btn">
+        <i class="fas fa-bars"></i>
+    </button>
+    <!-- END OF TOGGLE BUTTON -->
+
+
+<!-- NAV -->
+    <aside class="sidebar" id="sidebar">
+        <div>
+            <!-- <button class="close-btn" id="close-btn"><i class="fas fa-times"></i></button> -->
+            <ul class="sidebar-links">
+                <li><a href="#play" class="single-link">Zahrejte si</a></li>
+                <li><a href="#settings" class="single-link">Nastavení</a></li>
+                <li><a href="#about" class="single-link">O hře</a></li>
+                <!-- <li><a href="#support-us" class="single-link">Podpoř nás</a></li> -->
+            </ul>
+        </div>
+    </aside>
+<!-- END OF NAV -->
 
 <!-- HEADER -->
 <header class="header">
-
     <div class="header-container">
 
         <h1>
@@ -28,23 +52,39 @@
 </header>
 <!-- END OF HEADER -->
 
-
-<section class="play" id="play">
-
-    <h2>
+<!-- PLAY -->
+<div class="play" id="play">
+    <!-- <h2>
     <em>
         „Bez upřímnosti je jakákoli diskuse pouhý žvást.“
     </em>
     <span> - Jean Rousseau</span>
-    </h2>
+    </h2> -->
+  
     
     <article class="play-container">
 
     
 <div class="deck-info">
-<span class="card-number">
 
+<span class="card-number">
 </span>
+
+<button class="previous-card-btn btn">
+    <i class="fas fa-undo"></i>
+</button>
+
+
+
+
+    <button class="settings-card-btn btn">
+        <a href="#settings">
+
+            <i class="fas fa-cog"></i>
+        </a>
+    </button>
+
+
 <button class="shuffle btn ">
 Zamíchat otázky
 </button>
@@ -54,18 +94,138 @@ Zamíchat otázky
     <p class="card-text">
         <span class="first-card">?</span>
     </p>
-    
-    
 </div>
 
-<button class="next-btn btn">
-vybrat novou otázku
+
+<!-- <div class="card-footer">
+
+    <button class="thumbs-down thumbs" >
+<i class="fas fa-thumbs-down"></i>    
 </button>
+
+
+<button class="thumbs-up thumbs">
+    <i class="fas fa-thumbs-up"></i>
+</button>
+</div> -->
+<button class="next-btn btn">
+losuj novou
+</button>
+
 </article>
+</div>
+<!-- END OF PLAY -->
 
+
+<!-- SETTINGS  -->
+<section class="settings" id="settings">
+
+    <h2 class="section-heading">Nastavení</h2>
+    <div class="title-underline"></div>
+    <h3>Vyber typ/y otázek, se kterými chceš hrát.</h3>
+
+    <article class="options">
+<!-- <div class="question-type"> -->
+        <h4>Poznávací</h4>
+        <label class="switch">
+            <input type="checkbox" checked class="poznavaci" data-id="poznavaci_">
+            <span class="slider round"></span>
+        </label>
+        <!-- </div> -->
+        <p> 
+        Jde o otázky typu "Kdy jsi naposledy brečel/a před jiným člověkem?", "Co by sis přál/a, aby o tobě lidé věděli?". Pomáhají navázat s druhými lidmi hluboké spojení a opravdu se poznat.
+        </p>
+
+<!-- <div class="question-type"> -->
+        <h4>Hypotetické</h4>
+        <label class="switch">
+            <input type="checkbox" class="hypoteticke" data-id="hypoteticke_">
+            <span class="slider round"></span>
+        </label>
+        <!-- </div> -->
+        <p> 
+            Jde o otázky typu ""Zapomněl/a bys raději, kdo jsi ty, nebo kdo jsou všichni ostatní?", "Kdyby ses mohl vrátit v čase a zabít Hitlera jako novorozeně, udělal/a bys to?". Pomáhají poznat myšlení druhých z úplně jiné perspektivy a někdy je s nimi legrace.
+         </p>
+
+         <!-- <div class="question-type"> -->
+        <h4>Odvážné, nespolečenské nebo absurdní </h4>
+        <label class="switch">
+            <input type="checkbox" class="crazy" data-id="crazy_">
+            <span class="slider round"></span>
+        </label>
+        <!-- </div> -->
+        <p> 
+            Jde o otázky typu "Co je nejskandálnější fotka ve tvém uložišti?", "Čůráš někdy ve sprše?". Jsou to otázky, na které se pravděpodobně často druhých neptáte. Ať už z důvodu, že vám přijdou společensky nepřijatelné, hloupé, bizarní, vlezlé nebo jakékoli jiné. Nejsou určené pro každého, tuto možnost proto volte hlavně v případě, že si chcete zahrát s lidmi, kteří jsou nakloněni hodně otevřené a unikátní konverzaci.
+        </p>
+        <button class="next-btn btn save-settings">
+            Uložit nastavení
+        </button>
+
+    </article>
 </section>
+<!-- END OF SETTINGS  -->
 
-      
+<!-- ABOUT A GAME -->
+<section class="about" id="about">
+
+    <div class="about_sec">
+        
+        <h2 class="section-heading">O hře</h2>
+        <div class="title-underline"></div>
+        <h3>Hlavní mise hry</h3>
+        <p>
+            Posláním DeeperDiscussions je užít si skvělou zábavu a nezapomenutelné chvíle v kruhu přátel nebo lidí, se kterými se terpve chcete blíže. Umožňuje poznat lidi z odlišné perspektivy než doposud.
+        </p>
+        <h3>Pravidla hry</h3>
+        <p>
+            Přizvěte ke hře alespoň jednoho parťáka a pak už jen postupně losujte nové otázky a povídejte si o svých odpovědích. <br> <br>
+            Hra má pouze 2 striktní pravidla (ostatní se mohou modifikovat dle preferencí skupiny):
+            </p>
+
+            <p class="number_list"><strong>1. Odpovídejte na otázky upřímně a otevřeně.</strong> Toto je základní kámen celé hry, bez něj hra ztrácí význam. <br>
+            <strong>
+                2. Bez svolení lidí, kteří s vámi hrají, nemluvte veřejně o tom, co odpověděli druzí.
+            </strong> Odpovídat zcela upřímně někdy znamená být zranitelný. K tomu je potřeba vytvořit prostředí důvěry.</p>
+           
+            
+        
+    </div>
+
+</section> 
+
+<!-- END OF ABOUT GAME -->
+
+
+<!-- SUPPORT -->
+<!-- <section class="support" id="support">
+
+    <article class="support-section">
+        <h2 class="section-heading">Podpoř nás</h2>
+        <div class="title-underline"></div>
+    </article>
+
+</section> -->
+<!-- END OF SUPPORT -->
+
+<footer class="page-footer">
+    <div class="footer-text">
+        <p class="footer-contact">
+            Máš tip na dobrou otázku? Dej mi vědět na adamec.natanael@gmail.com
+        </p>
+
+        <p>
+            &copy;<span id="date"></span> DeeperDiscussions.com
+        </p>
+
+        <p>
+            Všechna práva vyhrazena.
+        </p>
+    </div>
+</footer>
+
+
+
+    </body>
     <script src="./app.js"></script>
 </body>
 </html>
