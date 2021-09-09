@@ -437,6 +437,7 @@ PLAY
   margin-top: 1rem;
   margin-bottom: 0;
   padding-bottom: 0;
+  overflow: auto;
 }
 .card p {
   width: 95%;
