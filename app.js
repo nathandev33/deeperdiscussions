@@ -682,6 +682,11 @@ let poznavaci_ = [
         category: ""
     },
     {
+        number: 0,
+        text: "Co je to nejméně užitečné know-how, které máš?",
+        category: ""
+    },
+    {
         number: 2,
         text: "Na co by sis přál/a mít více času?",
         category: ""
@@ -721,11 +726,7 @@ let poznavaci_ = [
         text: "Kdyby sis mohl/a vybrat ze všech lidí na světě, s kým bys nejraději šel/šla na večeři?",
         category: ""
     },
-    {
-        number: 10,
-        text: "Opakuješ si obvykle, co řekneš, než někomu zavoláš?",
-        category: ""
-    },
+
     {
         number: 11,
         text: "Jak vypadá “dokonalý” den podle tvých představ?",
@@ -734,11 +735,6 @@ let poznavaci_ = [
     {
         number: 12,
         text: "Kdy sis naposledy sám/sama pro sebe zpíval/a? A kdy před někým jiným?",
-        category: ""
-    },
-    {
-        number: 13,
-        text: "Představ si, že víš, že se dožiješ 90 let. Ve 30 letech si můžeš vybrat, jestli si na zbylých 60 let ponecháš tělo a vzhled nebo mysl svého 30letého já. Co si vybereš?",
         category: ""
     },
     {
@@ -793,7 +789,7 @@ let poznavaci_ = [
     },
     {
         number: 24,
-        text: "Někoho se zeptej: pokud bychom se měli stát partneři, co myslíš, že je důležité, abych o tobě věděl/a?",
+        text: "Někoho se zeptej: pokud bychom se měli stát partnery, co myslíš, že je důležité, abych o tobě věděl/a?",
         category: ""
     },
     {
@@ -803,7 +799,7 @@ let poznavaci_ = [
     },
     {
         number: 26,
-        text: "Co je příliš závažné na to, aby se o tom vtipkovalo, pokud něco takového podle tebe vůbec existuje?",
+        text: "Co je příliš závažné na to, aby se o tom vtipkovalo, pokud něco takového podle tebe existuje?",
         category: ""
     },
     {
@@ -923,7 +919,7 @@ let poznavaci_ = [
     },
     {
         number: 51,
-        text: "Zeptej se jednoho člověka v místnosti: co myslíš, že mě rozesměje?",
+        text: "Co tě obvykle zaručeně rozesměje?",
         category: ""
     },
     {
@@ -943,7 +939,7 @@ let poznavaci_ = [
     },
     {
         number: 55,
-        text: "Co je pro tebe z těchto hodnot nejdůležitější - peníze, uznání, nezávislost, čestnost/poctivost?",
+        text: "Co je pro tebe z těchto hodnot nejdůležitější - peníze, uznání, nezávislost, čestnost?",
         category: ""
     },
     {
@@ -954,11 +950,6 @@ let poznavaci_ = [
     {
         number: 57,
         text: "Jak bys chtěl/a, aby tvůj život vypadal za 5 let? Jak by vypadal tvůj typický den?",
-        category: ""
-    },
-    {
-        number: 58,
-        text: "Chtěl/a bys raději život s partnerem (ale bez dítěte), nebo s dítětem (ale bez partnera)?",
         category: ""
     },
     {
@@ -1048,7 +1039,7 @@ let poznavaci_ = [
     },
     {
         number: 77,
-        text: "Jak se cítíš ohledně sdílení svých hesel s partnerem?",
+        text: "Jak se cítíš ohledně sdílení svých hesel (k mobilu, cloudu, emailu atd.) s partnerem?",
         category: ""
     },
     {
@@ -1183,29 +1174,10 @@ let poznavaci_ = [
     },
     {
         number: 105,
-        text: "Co by o tobě zjistil detektiv jen z prohlídky tvého pokoje?",
+        text: "Co se dá o tobě zjistit z prohlídky tvého pokoje?",
         category: ""
     },
-    {
-        number: 106,
-        text: "Šel/šla bys raději na doživotí do vězení za vraždu, kterou jsi nespáchal/a, nebo někoho zabil/a a byl/a na svobodě?",
-        category: ""
-    },
-    {
-        number: 107,
-        text: "Jak bys utratil/a 20 miliónů v případě, že bys nemohl/a koupit nic pro sebe ani svou rodinu?",
-        category: ""
-    },
-    {
-        number: 108,
-        text: "Kdybychom uvízli na pustém ostrově, jakou roli by každý z nás zastal?",
-        category: ""
-    },
-    {
-        number: 109,
-        text: "Zeptej se jednoho člověka v místnosti: v čem jsem podobný tvé matce/otci?",
-        category: ""
-    },
+    
     {
         number: 110,
         text: "Věříš, že se člověk musí změnit před tím, než mu odpustíš?",
@@ -1221,16 +1193,7 @@ let poznavaci_ = [
         text: "Máš pocit, že sis během dětství musel zasloužit lásku svých rodičů?",
         category: ""
     },
-    {
-        number: 113,
-        text: "Kdyby měl být vydán zákon, který by ukládal za povinnost projít testem znalostí a dovedností, než někdo začne vychovávat dítě, podpořil/a bys ho?",
-        category: ""
-    },
-    {
-        number: 114,
-        text: "Zeptej se jednoho člověka v místnosti: kdybys měl stroj času, kde bys mě vzal/a se podívat?",
-        category: ""
-    },
+  
     {
         number: 115,
         text: "Jak odlišné by byly životy tvých nejlepších přátel, kdyby tě nikdy nepotkali?",
@@ -1243,7 +1206,7 @@ let poznavaci_ = [
     },
     {
         number: 117,
-        text: "Zeptej se jednoho člověka v místnosti: kdybys ztratil/a paměť, jakým třem lidem bych měl/a zavolat, aby ti pomohli si vzpomenout na minulost?",
+        text: "Kdybys ztratil/a paměť, jací tři lidé by ti pomohli si vzpomenout nejvíc ze svého života?",
         category: ""
     },
     {
@@ -1337,6 +1300,36 @@ let hypoteticke_ = [
         text: "Jaké zákony bys vytvořil/a, kdybys mohl/a?",
         category: ""
     },
+      {
+        number: 113,
+        text: "Kdyby měl být vydán zákon, který by ukládal za povinnost projít testem znalostí a dovedností, než někdo začne vychovávat dítě, podpořil/a bys ho?",
+        category: ""
+    },
+    {
+        number: 108,
+        text: "Kdybychom uvízli na pustém ostrově, jakou roli by každý z nás zastal?",
+        category: ""
+    },
+    {
+        number: 106,
+        text: "Šel/šla bys raději na doživotí do vězení za vraždu, kterou jsi nespáchal/a, nebo někoho zabil/a a byl/a na svobodě?",
+        category: ""
+    },
+    {
+        number: 0,
+        text: "Chodil/a bys raději s člověkem, který tě miluje, ale ty ho ne, nebo s člověkem, kterého miluješ, ale on tebe ne?",
+        category: ""
+    },
+    {
+        number: 58,
+        text: "Chtěl/a bys raději život s partnerem (ale bez dítěte), nebo s dítětem (ale bez partnera)?",
+        category: ""
+    },
+    {
+        number: 13,
+        text: "Představ si, že víš, že se dožiješ 90 let. Ve 30 letech si můžeš vybrat, jestli si na zbylých 60 let ponecháš tělo a vzhled nebo mysl svého 30letého já. Co si vybereš?",
+        category: ""
+    },
     {
         number: 0,
         text: "Pokaždé, když Ti někdo zlomí kost v těle, dostaneš 250 000 Kč. Kolik kostí by sis nechal/a zlomit?",
@@ -1389,7 +1382,7 @@ let hypoteticke_ = [
     },
     {
         number: 0,
-        text: "Kdyby měl/a tvůj/tvá nastavíjící týden před svatbou nehodu, kvůli které by přišel/přišla o obě nohy, vzal/a? by sis ho/ji?",
+        text: "Kdyby měl/a tvůj/tvá nastavíjící týden před svatbou nehodu, kvůli které by přišel/přišla o obě nohy, vzal/a? by sis ho/ji? pak?",
         category: ""
     },
     {
@@ -1451,6 +1444,72 @@ let crazy_ = [
         text: "K čemu rád čicháš, i když většině lidí to nevoní?",
         category: ""
     },
+    
+    {
+        number: 0,
+        text: "Šel bys na nudistickou pláž? Proč?",
+        category: ""
+    },
+    {
+        number: 0,
+        text: "Lhal jsi někdy svému nejlepšímu příteli? O čem?",
+        category: ""
+    },
+    {
+        number: 0,
+        text: "Stalo se Ti někdy, že jsi jako dítě vešel do místnosti, zrovna když to rodiče dělali? Co ti běželo hlavou?" ,
+        category: ""
+    },
+    {
+        number: 0,
+        text: "Obdivuješ se někdy v zrcadle?",
+        category: ""
+    },
+    {
+        number: 0,
+        text: "Kdy naposledy jsi před zrcadlem zatínal/a svaly nebo něco jiného?",
+        category: ""
+    },
+    {
+        number: 0,
+        text: "Litoval/a jsi někdy něčeho, co jsi dal na sociální sítě? Čeho?",
+        category: ""
+    },
+    {
+        number: 0,
+        text: "Co je ta nejvíce nezákonná věc, kterou jsi kdy udělal?",
+        category: ""
+    },
+    {
+        number: 0,
+        text: "Za co ve své webové historii prohlížení by ses styděl, kdyby někdo viděl?",
+        category: ""
+    },
+    {
+        number: 0,
+        text: "Co je tvůj nejhorší zvyk?",
+        category: ""
+    },
+    {
+        number: 0,
+        text: "Na co obvykle myslíš, když jsi na záchodě?",
+        category: ""
+    },
+    {
+        number: 0,
+        text: "Kdo je podle tebe nejhůř oblečený člověk v místnosti?",
+        category: ""
+    },
+    {
+        number: 0,
+        text: "Jaká je nejdelší doba, po kterou jsi nechal/a spadlé jídlo na zemi a pak ho snědl/a?",
+        category: ""
+    },
+    {
+        number: 0,
+        text: "Co je poslední věc, kterou jsi hledal/a na internetu?",
+        category: ""
+    },
     {
         number: 0,
         text: "Čůráš někdy ve sprše?",
@@ -1463,7 +1522,7 @@ let crazy_ = [
     },
     {
         number: 0,
-        text: "Ukradl/a jsi někdy něco v obchodě?",
+        text: "Ukradl/a jsi někdy něco?",
         category: ""
     },
     {
@@ -1573,11 +1632,6 @@ let crazy_ = [
     },
     {
         number: 0,
-        text: "Kdy naposledy kvůli tobě někdo brečel?",
-        category: ""
-    },
-    {
-        number: 0,
         text: "S kolika lidmi ses líbal/a?",
         category: ""
     },
@@ -1596,11 +1650,11 @@ let crazy_ = [
         text: "Komu v místnosti důvěřuješ nejméně?",
         category: ""
     },
-    {
-        number: 0,
-        text: "Kdyby si tvoje přítelkyně a matka vyměnily těla a jediná možnost, jak dát vše do původního stavu je mít s jednou z nich sex, kterou by sis vybral (pro ženy obráceně)?",
-        category: ""
-    },
+    // {
+    //     number: 0,
+    //     text: "Kdyby si tvoje přítelkyně a matka vyměnily těla a jediná možnost, jak dát vše do původního stavu je mít s jednou z nich sex, kterou by sis vybral?",
+    //     category: ""
+    // },
     {
         number: 0,
         text: "Pokud bys mohl/a změnit jednu věc na vzhledu tvého partnera, co by to bylo?",
@@ -1788,3 +1842,11 @@ numberInfo()
 // console.log(questions.filter(e => lookup[e.text]));
 return questions
 }
+
+//uložit nastaveni - scrol to otázky
+$('.scrollTo').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 500);
+    return false;
+});
