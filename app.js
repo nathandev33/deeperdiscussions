@@ -388,7 +388,7 @@ let questions = [
     },
     {
         number: 78,
-        text: "Jak smýšlíš ohledně svých nejlepších přátelích opačného pohlaví?",
+        text: "Jak bereš své nejlepší přátele opačného pohlaví?",
         category: ""
     },
     {
@@ -1007,7 +1007,7 @@ let poznavaci_ = [
     },
     {
         number: 78,
-        text: "Jak smýšlíš ohledně svých nejlepších přátelích opačného pohlaví?",
+        text: "Jak bereš své nejlepší přátel opačného pohlaví?",
         category: ""
     },
     {
