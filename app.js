@@ -283,7 +283,7 @@ let questions = [
     },
     {
         number: 55,
-        text: "Co je pro tebe z těchto hodnot nejdůležitější - peníze, uznání, nezávislost, čestnost?",
+        text: "Co je pro tebe z těchto hodnot nejdůležitější - peníze, uznání, nezávislost, čest?",
         category: ""
     },
     {
@@ -590,7 +590,7 @@ let questions = [
     },
     {
         number: 125,
-        text: "Kdybys měl/a každou noc lucidní sed, o čem by sis nechal/a zdát?",
+        text: "Kdybys měl/a každou noc lucidní sen, o čem by sis nechal/a zdát?",
         category: ""
     },
     {
@@ -1209,7 +1209,7 @@ let poznavaci_ = [
     },
     {
         number: 125,
-        text: "Kdybys měl/a každou noc lucidní sed, o čem by sis nechal/a zdát?",
+        text: "Kdybys měl/a každou noc lucidní sen, o čem by sis nechal/a zdát?",
         category: ""
     },
     {
