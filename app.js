@@ -57,7 +57,7 @@ let questions = [
     },
     {
         number: 7,
-        text: "Na koho v současné době nejvíc myslíš a proč?",
+        text: "Na koho v současné době nejvíce myslíš a proč?",
         category: ""
     },
     {
@@ -417,11 +417,6 @@ let questions = [
         category: ""
     },
     {
-        number: 84,
-        text: "Jaké nejdivnější jídlo máš rád/a?",
-        category: ""
-    },
-    {
         number: 85,
         text: "Jakou písničku jsi poslouchal/a, když jsi byl zamilovaný/á?",
         category: ""
@@ -537,7 +532,6 @@ let questions = [
         text: "Máš pocit, že sis během dětství musel zasloužit lásku svých rodičů?",
         category: ""
     },
-  
     {
         number: 115,
         text: "Jak odlišné by byly životy tvých nejlepších přátel, kdyby tě nikdy nepotkali?",
@@ -550,7 +544,7 @@ let questions = [
     },
     {
         number: 117,
-        text: "Kdybys ztratil/a paměť, jací tři lidé by ti pomohli si vzpomenout nejvíc ze svého života?",
+        text: "Kdybys ztratil/a paměť, jací tři lidé by ti pomohli si vzpomenout na nejvíc ze své minulosti?",
         category: ""
     },
     {
@@ -601,11 +595,6 @@ let questions = [
     {
         number: 128,
         text: "Pokud by ses mohl/a zeptat svého já z roku 2050 na jedinou otázku, jaká by to byla?",
-        category: ""
-    },
-    {
-        number: 129,
-        text: "Jak moc tě děsí horory?",
         category: ""
     },
     {
@@ -676,7 +665,7 @@ let poznavaci_ = [
     },
     {
         number: 7,
-        text: "Na koho v současné době nejvíc myslíš a proč?",
+        text: "Na koho v současné době nejvíce myslíš a proč?",
         category: ""
     },
     {
@@ -902,7 +891,7 @@ let poznavaci_ = [
     },
     {
         number: 55,
-        text: "Co je pro tebe z těchto hodnot nejdůležitější - peníze, uznání, nezávislost, čestnost?",
+        text: "Co je pro tebe z těchto hodnot nejdůležitější - peníze, uznání, nezávislost, čest?",
         category: ""
     },
     {
@@ -1007,7 +996,7 @@ let poznavaci_ = [
     },
     {
         number: 78,
-        text: "Jak bereš své nejlepší přátel opačného pohlaví?",
+        text: "Jak bereš své nejlepší přátele opačného pohlaví?",
         category: ""
     },
     {
@@ -1033,11 +1022,6 @@ let poznavaci_ = [
     {
         number: 83,
         text: "Na co se zaměříš jako první po tom, co přijdeš k někomu do bytu/domu?",
-        category: ""
-    },
-    {
-        number: 84,
-        text: "Jaké nejdivnější jídlo máš rád/a?",
         category: ""
     },
     {
@@ -1156,7 +1140,6 @@ let poznavaci_ = [
         text: "Máš pocit, že sis během dětství musel zasloužit lásku svých rodičů?",
         category: ""
     },
-  
     {
         number: 115,
         text: "Jak odlišné by byly životy tvých nejlepších přátel, kdyby tě nikdy nepotkali?",
@@ -1169,7 +1152,7 @@ let poznavaci_ = [
     },
     {
         number: 117,
-        text: "Kdybys ztratil/a paměť, jací tři lidé by ti pomohli si vzpomenout nejvíc ze svého života?",
+        text: "Kdybys ztratil/a paměť, jací tři lidé by ti pomohli si vzpomenout na nejvíc ze své minulosti?",
         category: ""
     },
     {
@@ -1220,11 +1203,6 @@ let poznavaci_ = [
     {
         number: 128,
         text: "Pokud by ses mohl/a zeptat svého já z roku 2050 na jedinou otázku, jaká by to byla?",
-        category: ""
-    },
-    {
-        number: 129,
-        text: "Jak moc tě děsí horory?",
         category: ""
     },
     {

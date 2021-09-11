@@ -1046,13 +1046,16 @@ ABOUT
 
 .save-settings {
   margin-top: 2rem;
-  color: var(--primary-sub-headline);
+
   background: var(--primary-tx);
   width: 90%;
   max-width: 20rem;
   padding: 0.5rem;
   font-size: 1.4rem;
   margin-bottom: 2rem;
+}
+.save-settings a {
+  color: var(--primary-sub-headline);
 }
 @media screen and (min-width: 340px) {
   .save-settings {
@@ -1061,6 +1064,10 @@ ABOUT
 }
 .save-settings:hover {
   background: var(--primary-btn-gray);
+  color: var(--primary-tx);
+}
+
+.save-settings:hover a {
   color: var(--primary-tx);
 }
 
@@ -1086,19 +1093,38 @@ FOOTER
 */
 .page-footer {
   background-color: var(--primary-tx-gray);
-  height: 17rem;
+  height: 19rem;
   color: var(--primary-bc-600);
   text-align: center;
   place-items: center;
   font-size: 1.4rem;
   padding-bottom: 2rem;
-  width: 100%;
 }
 .footer-text {
   margin: 0 auto;
   max-width: 700px;
+  width: 90%;
   padding-top: 0.5rem;
 }
 .footer-contact {
   color: var(--primary-bc-600);
+}
+
+.footer {
+  /* display: grid;
+  place-items: center; */
+  width: 100%;
+  background-color: var(--primary-tx-gray);
+  margin-top: 0;
+  padding-top: 1rem;
+}
+.footer-section {
+  margin: 0 auto;
+  color: var(--primary-bc-600);
+  text-align: center;
+  font-size: 1.4rem;
+  width: 90%;
+  max-width: 600px;
+  height: 100%;
+  padding-bottom: 1rem;
 }
