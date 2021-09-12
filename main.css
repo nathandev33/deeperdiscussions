@@ -913,6 +913,7 @@ SETTINGS
   width: 100%;
   color: var(--primary-tx);
   height: 100%;
+  padding-top: 1.7rem;
 }
 .section-heading {
   text-align: center;
