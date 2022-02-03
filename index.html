@@ -1,81 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-0C2R6HBQ55"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0C2R6HBQ55"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+      gtag("config", "G-0C2R6HBQ55");
+    </script>
 
-    gtag('config', 'G-0C2R6HBQ55');
-</script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      DeeperDiscussions - get to know people from a completely different
+      perspective
+    </title>
+    <link rel="icon" type="image/x-icon" href="/favicon.png" />
+  </head>
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="./fontawesome-free-5.12.1-web/css/all.min.css" />
+  <!-- normalize css -->
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <!-- main css -->
+  <link rel="stylesheet" href="./css/main.css" />
 
+  <body>
+    <!-- HERO IMAGE -->
+    <div class="hero-image">
+      <!-- HEADER -->
+      <header class="header">
+        <div class="header-container">
+          <h1>
+            Get to know your friends from a completely different perspective.
+            <br /><br />
+            Enjoy your time together.
+          </h1>
 
+          <a href="#play" class="btn hero-btn"> PLAY </a>
+        </div>
+      </header>
+      <!-- END OF HEADER -->
+    </div>
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DeeperDiscussions - get to know people from a completely different perspective</title>
-    <link rel="icon" type="image/x-icon" href="/favicon.png">
-
-
-</head>
-<!-- font-awesome -->
-<link rel="stylesheet" href="./fontawesome-free-5.12.1-web/css/all.min.css" />
-<!-- normalize css -->
-<link rel="stylesheet" href="./normalize.css" />
-<!-- main css -->
-<link rel="stylesheet" href="./main.css">
-
-
-
-<style>
-</style>
-<body>
-
+    <!-- END OF HERO IMAGE -->
 
     <!-- TOGGLE BUTTON -->
     <button class="toggle-btn" id="toggle-btn">
-        <i class="fas fa-bars"></i>
+      <i class="fas fa-bars"></i>
     </button>
     <!-- END OF TOGGLE BUTTON -->
 
-
-
-<!-- NAV -->
+    <!-- NAV -->
     <aside class="sidebar" id="sidebar">
-        <div>
-            <!-- <button class="close-btn" id="close-btn"><i class="fas fa-times"></i></button> -->
-            <ul class="sidebar-links">
-                <li><a href="#play" class="single-link">Play</a></li>
-                <li><a href="#settings" class="single-link">Settings</a></li>
-                <li><a href="#about" class="single-link">About a game</a></li>
-                
-               <li>
-                   <select name="select-language" id="select-language">
-                     <option value="en" checked>English</option>
-                     <option value="es">español</option>
-                     <option value="de">Deutsch</option>
-                     <option value="fr">Français</option>
-                     <option value="cs">Čeština</option>
-                   </select>
+      <div>
+        <ul class="sidebar-links">
+          <li><a href="#play" class="single-link">Play</a></li>
+          <li><a href="#settings" class="single-link">Settings</a></li>
+          <li><a href="#about" class="single-link">About a game</a></li>
 
-               </li>
-
-                
-                
-                  
-                
-                <!-- <li><a href="#support-us" class="single-link">Podpoř nás</a></li> -->
-            </ul>
-        </div>
+          <li>
+            <select name="select-language" id="select-language">
+              <option value="en" checked>English</option>
+              <option value="es">español</option>
+              <option value="de">Deutsch</option>
+              <option value="fr">Français</option>
+              <option value="cs">Čeština</option>
+            </select>
+          </li>
+        </ul>
+      </div>
     </aside>
-<!-- END OF NAV -->
+    <!-- END OF NAV -->
 
-<!-- HEADER -->
-<header class="header">
+    <!-- HEADER -->
+    <!-- <header class="header">
     <div class="header-container">
 
         <h1>
@@ -88,182 +94,160 @@
     
         <a href="#play" class="btn hero-btn"> PLAY </a>
     </div>
-</header>
-<!-- END OF HEADER -->
+</header> -->
+    <!-- END OF HEADER -->
 
-<!-- PLAY -->
-<div class="play" id="play">
-    <!-- <h2>
-    <em>
-        „Bez upřímnosti je jakákoli diskuse pouhý žvást.“
-    </em>
-    <span> - Jean Rousseau</span>
-    </h2> -->
-  
-    
-    <article class="play-container">
+    <!-- PLAY -->
+    <div class="play" id="play">
+      <article class="play-container">
+        <div class="deck-info">
+          <span class="card-number"> </span>
 
-    
-<div class="deck-info">
+          <button class="previous-card-btn btn">
+            <i class="fas fa-undo"></i>
+          </button>
 
-<span class="card-number">
-</span>
+          <button class="settings-card-btn btn">
+            <a href="#settings">
+              <i class="fas fa-cog"></i>
+            </a>
+          </button>
 
-<button class="previous-card-btn btn">
-    <i class="fas fa-undo"></i>
-</button>
+          <button class="shuffle btn">Shuffle</button>
+        </div>
 
+        <div class="card">
+          <p class="card-text">
+            <span class="first-card">?</span>
+          </p>
+        </div>
 
+        <button class="next-btn btn">new</button>
+      </article>
+    </div>
+    <!-- END OF PLAY -->
 
+    <!-- SETTINGS  -->
+    <section class="settings" id="settings">
+      <h2 class="section-heading">Settings</h2>
+      <div class="title-underline"></div>
+      <h3>Select the type(s) of questions you want to play with.</h3>
 
-    <button class="settings-card-btn btn">
-        <a href="#settings">
-
-            <i class="fas fa-cog"></i>
-        </a>
-    </button>
-
-
-<button class="shuffle btn ">
-Shuffle
-</button>
-</div>
-
-<div class="card">
-    <p class="card-text">
-        <span class="first-card">?</span>
-    </p>
-</div>
-
-
-<!-- <div class="card-footer">
-
-    <button class="thumbs-down thumbs" >
-<i class="fas fa-thumbs-down"></i>    
-</button>
-
-
-<button class="thumbs-up thumbs">
-    <i class="fas fa-thumbs-up"></i>
-</button>
-</div> -->
-<button class="next-btn btn">
-new
-</button>
-
-</article>
-</div>
-<!-- END OF PLAY -->
-
-
-<!-- SETTINGS  -->
-<section class="settings" id="settings">
-
-    <h2 class="section-heading">Settings</h2>
-    <div class="title-underline"></div>
-    <h3>Select the type(s) of questions you want to play with.</h3>
-
-    <article class="options">
-<!-- <div class="question-type"> -->
+      <article class="options">
+        <!-- <div class="question-type"> -->
         <h4>Exploring</h4>
         <label class="switch">
-            <input type="checkbox" checked class="poznavaci" data-id="poznavaci_">
-            <span class="slider round"></span>
+          <input
+            type="checkbox"
+            checked
+            class="poznavaci"
+            data-id="poznavaci_"
+          />
+          <span class="slider round"></span>
         </label>
         <!-- </div> -->
-        <p> 
-       These are questions like <em> 'When was the last time you cried in front of another person?'</em>, <em>"What do you wish people knew about you?"</em>. They help you make a deep connection with other people and really get to know each other.
+        <p>
+          These are questions like
+          <em>
+            'When was the last time you cried in front of another person?'</em
+          >, <em>"What do you wish people knew about you?"</em>. They help you
+          make a deep connection with other people and really get to know each
+          other.
         </p>
 
-<!-- <div class="question-type"> -->
+        <!-- <div class="question-type"> -->
         <h4>Hypothetical</h4>
         <label class="switch">
-            <input type="checkbox" class="hypoteticke" data-id="hypoteticke_">
-            <span class="slider round"></span>
+          <input type="checkbox" class="hypoteticke" data-id="hypoteticke_" />
+          <span class="slider round"></span>
         </label>
         <!-- </div> -->
-        <p> 
-           These are questions like <em>'Would you rather forget who you are or who everyone else is?'</em>, <em>'If you could go back in time and kill Hitler as a newborn baby, would you do it?'</em>. They help you see other people's thinking from a completely different perspective and sometimes they are fun.
-         </p>
+        <p>
+          These are questions like
+          <em>'Would you rather forget who you are or who everyone else is?'</em
+          >,
+          <em
+            >'If you could go back in time and kill Hitler as a newborn baby,
+            would you do it?'</em
+          >. They help you see other people's thinking from a completely
+          different perspective and sometimes they are fun.
+        </p>
 
-         <!-- <div class="question-type"> -->
-        <h4>Bold, improper or absurd  </h4>
+        <!-- <div class="question-type"> -->
+        <h4>Bold, improper or absurd</h4>
         <label class="switch">
-            <input type="checkbox" class="crazy" data-id="crazy_">
-            <span class="slider round"></span>
+          <input type="checkbox" class="crazy" data-id="crazy_" />
+          <span class="slider round"></span>
         </label>
         <!-- </div> -->
-        <p> 
-            These are questions like <em>'What's the most scandalous photo in your stash?'</em>, <em>'Do you ever pee in the shower?'</em>. They're questions you probably don't often ask others. They're not for everyone, so choose this option especially if you want to play with people who are inclined to have open and unique conversations.
+        <p>
+          These are questions like
+          <em>'What's the most scandalous photo in your stash?'</em>,
+          <em>'Do you ever pee in the shower?'</em>. They're questions you
+          probably don't often ask others. They're not for everyone, so choose
+          this option especially if you want to play with people who are
+          inclined to have open and unique conversations.
         </p>
         <button class="next-btn btn save-settings">
-            <a href="#play" class="scrollTo">Save settings</a>
-            
+          <a href="#play" class="scrollTo">Save settings</a>
         </button>
+      </article>
+    </section>
+    <!-- END OF SETTINGS  -->
 
-    </article>
-</section>
-<!-- END OF SETTINGS  -->
-
-<!-- ABOUT A GAME -->
-<section class="about" id="about">
-
-    <div class="about_sec">
-        
+    <!-- ABOUT A GAME -->
+    <section class="about" id="about">
+      <div class="about_sec">
         <h2 class="section-heading">About a game</h2>
         <div class="title-underline"></div>
         <h3>Mission</h3>
         <p>
-          The mission of DeeperDiscussions is to enjoy great fun and unforgettable moments with friends or people you want to get to know. It allows you to get to know people from a different perspective than before.
+          The mission of DeeperDiscussions is to enjoy great fun and
+          unforgettable moments with friends or people you want to get to know.
+          It allows you to get to know people from a different perspective than
+          before.
         </p>
         <h3>Rules</h3>
         <p>
-           
-           Invite at least one partner to play and then just draw new questions and talk about your answers. <br> <br> The game has only 2 strict rules (the others can be modified according to the group's preferences):
-            </p>
+          Invite at least one partner to play and then just draw new questions
+          and talk about your answers. <br />
+          <br />
+          The game has only 2 strict rules (the others can be modified according
+          to the group's preferences):
+        </p>
 
-            <p class="number_list"><strong>  1. Answer questions honestly and openly.</strong>  This is the cornerstone of the game, without it the game loses its meaning. <br>
-            <strong>
-                2. Don't talk publicly about what others have answered without the permission of the people playing with you
-            </strong> Answering completely honestly sometimes means being vulnerable. To do this, you need to create an environment of trust.</p>
+        <p class="number_list">
+          <strong> 1. Answer questions honestly and openly.</strong> This is the
+          cornerstone of the game, without it the game loses its meaning. <br />
+          <strong>
+            2. Don't talk publicly about what others have answered without the
+            permission of the people playing with you
+          </strong>
+          Answering completely honestly sometimes means being vulnerable. To do
+          this, you need to create an environment of trust.
+        </p>
 
-
-
-
-        
         <h3>Can I add new questions to the game?</h3>
         <p>
-             Sure, email me your suggestions, I'll be happy to add them to the game.
+          Sure, email me your suggestions, I'll be happy to add them to the
+          game.
         </p>
-            
-        
-    </div>
+      </div>
+    </section>
 
-</section> 
-
-
-<footer class="footer">
-
-    <article class="footer-section">
-
-    
+    <footer class="footer">
+      <article class="footer-section">
         <p>
-           Do you have a good question or an idea to improve the game? Let me know at adamec.natanael@gmail.com.
+          Do you have a good question or an idea to improve the game? Let me
+          know at adamec.natanael@gmail.com.
         </p>
 
-        <p>
-            &copy;<span id="date"></span> DeeperDiscussions.com
-        </p>
+        <p>&copy;<span id="date"></span> DeeperDiscussions.com</p>
 
-        <p>
-            All rights reserved.
-        </p>
-    </article>
-</footer>
-   
-   
+        <p>All rights reserved.</p>
+      </article>
+    </footer>
 
     <script type="module" src="./app.js"></script>
-    </body>
-
+  </body>
 </html>
