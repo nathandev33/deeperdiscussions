@@ -1277,3 +1277,63 @@ FOOTER
     margin-top: 20rem;
   }
 }
+
+/* DROPDOWN MENU SELECT LANGUAGE */
+
+/* .demo {
+  margin: 100px auto;
+} */
+
+.dropdown-container {
+  width: 250px;
+  /* margin: 100px auto; */
+  margin: 1.7rem auto;
+  position: relative;
+}
+
+select {
+  width: 200px;
+  max-width: 70%;
+  height: 50px;
+  font-size: 100%;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0;
+  /* background-color: #c0392b; */
+  background-color: transparent;
+  border: none;
+  /* border-bottom: 2px solid #962d22; */
+  border: 2px solid var(--grey-600);
+  color: white;
+  appearance: none;
+  padding: 10px;
+  /* padding-right: 38px; */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  transition: color 0.3s ease, background-color 0.3s ease,
+    border-bottom-color 0.3s ease;
+
+  text-decoration: none;
+  color: var(--primary-tx);
+  font-size: 1.45rem;
+  text-align: center;
+
+  transition: var(--transition);
+}
+
+/* For IE <= 11 */
+select::-ms-expand {
+  display: none;
+}
+
+select:hover,
+select:focus {
+  color: var(--primary-sub-headline);
+  background-color: var(--grey-100);
+  border-bottom-color: var(--grey-100);
+}
+select:hover ~ .select-icon,
+select:focus ~ .select-icon {
+  background-color: white;
+  border-color: #dcdcdc;
+}

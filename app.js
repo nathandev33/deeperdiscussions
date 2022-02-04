@@ -21,7 +21,11 @@ console.log(cs.questions.length);
 // console.log("pozn: " + poznavaci_.length);
 // console.log("hypo: " + hypoteticke_.length);
 // console.log("crazy: " + crazy_.length);
-
+window.addEventListener("DOMContentLoaded", function () {
+  const currentURL = window.location.href;
+  console.log("current url is ", currentURL);
+  numberInfo();
+});
 const select = document.getElementById("select-language");
 let selectedLanguage = select.value;
 console.log(selectedLanguage);
@@ -44,6 +48,7 @@ select.addEventListener("change", function handleChange(event) {
     default:
       language = en;
   }
+  sidebar.classList.remove("show-sidebar");
   shuffle.click(); // po změně jazyku zamíchám balíček
 });
 
@@ -59,6 +64,11 @@ let vygenerovanaRandomCisla = myRandomInts(
 // NAV - SIDEBAR
 toggleBtn.addEventListener("click", () => {
   sidebar.classList.toggle("show-sidebar");
+});
+
+const closeSidebar = document.querySelector(".close-sidebar");
+closeSidebar.addEventListener("click", () => {
+  sidebar.classList.remove("show-sidebar");
 });
 
 links.forEach((link) => {
@@ -117,11 +127,6 @@ shuffle.addEventListener("click", () => {
   setTimeout(() => {
     cardText.innerHTML = `<span style="font-size:8rem;">?</span>`;
   }, 2100);
-});
-
-window.addEventListener("DOMContentLoaded", function () {
-  //card number info
-  numberInfo();
 });
 
 // FUNKCE

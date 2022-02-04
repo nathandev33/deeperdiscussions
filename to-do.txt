@@ -1,0 +1,2 @@
+budou cs.html, es.html atd.
+při načtení stránky se zkontroluje url. podle toho se přizpůsobí proměnná language.
