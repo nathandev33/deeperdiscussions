@@ -3863,18 +3863,36 @@ window.addEventListener("DOMContentLoaded", function () {
   const URLlanguage = window.location.pathname;
   console.log("current url is" + URLlanguage);
   switch (URLlanguage) {
-    case "/cs.html":
-      // language = cs;
-      language_ = "cs";
-      console.log("čeština");
-      break;
     case "/index.html":
-      // language = en;
       language_ = "en";
       console.log("angličtina");
       break;
+    case "/cs.html":
+      language_ = "cs";
+      console.log("čeština");
+      break;
+    case "/es.html":
+      language_ = "es";
+      break;
+    case "/de.html":
+      language_ = "es";
+      break;
+
+    case "/fr.html":
+      language_ = "fr";
+      br;
+    case "/pl.html":
+      language_ = "pl";
+      break;
+
+    case "/pt.html":
+      language_ = "pt";
+      break;
+
+    case "/ru.html":
+      language_ = "ru";
+      break;
     default:
-    // language = en;
   }
 
   // console.log(questions[2].text);
@@ -3884,30 +3902,49 @@ window.addEventListener("DOMContentLoaded", function () {
   const select = document.getElementById("select-language");
   let selectedLanguage = select.value;
   console.log(selectedLanguage);
-  // proměnná language určuje do jaké databáze otázek se budu dívat
 
-  // select.addEventListener("change", function handleChange(event) {
-  //   console.log(event.target.value);
-  //   //podle toho, jaký jazyk vyberu, do proměnné language se uloží příslušný jazyk (klíčové pro rozhodnutí, do jaké databáze se budu dívat)
-  //   selectedLanguage = event.target.value;
+  select.addEventListener("change", function handleChange(event) {
+    console.log(event.target.value);
+    //podle toho, jaký jazyk vyberu, do proměnné language se uloží příslušný jazyk (klíčové pro rozhodnutí, do jaké databáze se budu dívat)
+    selectedLanguage = event.target.value;
 
-  //   switch (selectedLanguage) {
-  //     case "en":
-  //       // language = en;
-  //       window.location.href = "https://deeperdiscussions.com/";
-  //       break;
+    switch (language_) {
+      case "en":
+        window.location.href = "https://deeperdiscussions.com/";
+        break;
 
-  //     case "cs":
-  //       // language = cs;
-  //       window.location.href = "https://deeperdiscussions.com/cs.html";
-  //       break;
-  //     default:
-  //       // language = en;
-  //       window.location.href = "https://deeperdiscussions.com/";
-  //   }
-  //   sidebar.classList.remove("show-sidebar");
-  //   shuffle.click(); // po změně jazyku zamíchám balíček
-  // });
+      case "cs":
+        window.location.href = "https://deeperdiscussions.com/cs.html";
+        break;
+
+      case "de":
+        window.location.href = "https://deeperdiscussions.com/de.html";
+        break;
+
+      case "es":
+        window.location.href = "https://deeperdiscussions.com/es.html";
+        break;
+
+      case "fr":
+        window.location.href = "https://deeperdiscussions.com/fr.html";
+        break;
+
+      case "pl":
+        window.location.href = "https://deeperdiscussions.com/pl.html";
+        break;
+
+      case "pt":
+        window.location.href = "https://deeperdiscussions.com/pt.html";
+        break;
+
+      case "ru":
+        window.location.href = "https://deeperdiscussions.com/ru.html";
+        break;
+      default:
+        window.location.href = "https://deeperdiscussions.com/";
+    }
+    sidebar.classList.remove("show-sidebar");
+  });
 
   let vygenerovanaRandomCisla = myRandomInts(
     questions.length - 1,
