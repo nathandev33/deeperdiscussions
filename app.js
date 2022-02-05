@@ -21,36 +21,54 @@ console.log(cs.questions.length);
 // console.log("pozn: " + poznavaci_.length);
 // console.log("hypo: " + hypoteticke_.length);
 // console.log("crazy: " + crazy_.length);
+let language;
+language = en;
+
+let URLlanguage;
 window.addEventListener("DOMContentLoaded", function () {
-  const currentURL = window.location.href;
-  console.log("current url is ", currentURL);
+  const URLlanguage = window.location.pathname;
+  console.log("current url is" + URLlanguage);
+  switch (URLlanguage) {
+    case "/cs.html":
+      language = cs;
+      console.log("čeština");
+      break;
+    case "/index.html":
+      language = en;
+      console.log("angličtina");
+      break;
+    default:
+      language = en;
+  }
   numberInfo();
 });
 const select = document.getElementById("select-language");
 let selectedLanguage = select.value;
 console.log(selectedLanguage);
 // proměnná language určuje do jaké databáze otázek se budu dívat
-let language = en;
 
-select.addEventListener("change", function handleChange(event) {
-  console.log(event.target.value);
-  //podle toho, jaký jazyk vyberu, do proměnné language se uloží příslušný jazyk (klíčové pro rozhodnutí, do jaké databáze se budu dívat)
-  selectedLanguage = event.target.value;
+// select.addEventListener("change", function handleChange(event) {
+//   console.log(event.target.value);
+//   //podle toho, jaký jazyk vyberu, do proměnné language se uloží příslušný jazyk (klíčové pro rozhodnutí, do jaké databáze se budu dívat)
+//   selectedLanguage = event.target.value;
 
-  switch (selectedLanguage) {
-    case "en":
-      language = en;
-      break;
-      debugger;
-    case "cs":
-      language = cs;
-      break;
-    default:
-      language = en;
-  }
-  sidebar.classList.remove("show-sidebar");
-  shuffle.click(); // po změně jazyku zamíchám balíček
-});
+//   switch (selectedLanguage) {
+//     case "en":
+//       // language = en;
+//       window.location.href = "https://deeperdiscussions.com/";
+//       break;
+
+//     case "cs":
+//       // language = cs;
+//       window.location.href = "https://deeperdiscussions.com/cs.html";
+//       break;
+//     default:
+//       // language = en;
+//       window.location.href = "https://deeperdiscussions.com/";
+//   }
+//   sidebar.classList.remove("show-sidebar");
+//   shuffle.click(); // po změně jazyku zamíchám balíček
+// });
 
 console.log(language.questions[2].text);
 
@@ -58,8 +76,8 @@ let vygenerovanaRandomCisla = myRandomInts(
   language.questions.length - 1,
   language.questions.length - 1
 );
-// console.log("vygenerovanaRandomCisla");
-// console.log(vygenerovanaRandomCisla);
+console.log("vygenerovanaRandomCisla:", vygenerovanaRandomCisla);
+console.log("delka otazek", language.questions.length);
 
 // NAV - SIDEBAR
 toggleBtn.addEventListener("click", () => {
@@ -84,7 +102,7 @@ nextBtn.addEventListener("click", () => {
   if (indexRandomCisla < language.questions.length) {
     cardText.textContent = language.questions[questionIndex].text;
     indexRandomCisla++;
-    // console.log("číslo je: " + indexRandomCisla);
+    console.log("číslo je: " + indexRandomCisla);
   } else {
     cardText.textContent =
       "THERE ARE NO NEW QUESTIONS TO DISPLAY IN THIS PACKAGE.";
@@ -236,3 +254,22 @@ window.addEventListener("load", function () {
 // function subjectMarks() {
 //   console.log(58);
 // }
+
+// console.log(cs.questions);
+// const x = cs.questions.map((one) => {
+//   return one.text;
+// });
+// console.log(x);
+
+// const y = en.questions.map((el, index, array) => {
+//   el.fr = x[index];
+//   return el;
+// });
+// console.log(y);
+
+const x = cs.questions.map((one) => {
+  one.cs = one.text;
+  delete one.text;
+  return one;
+});
+console.log(x);

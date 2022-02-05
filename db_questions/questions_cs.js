@@ -601,6 +601,26 @@ let questions = [
     text: "Jakou mobilní aplikaci používáš nejčastěji?",
     category: "",
   },
+  {
+    number: 135,
+    text: "Stříhal/a sis někdy sám/sama vlasy?",
+    category: "",
+  },
+  {
+    number: 136,
+    text: "Dal/a jsi někdy někomu schválně špatnou radu?",
+    category: "",
+  },
+  {
+    number: 137,
+    text: "Plánuješ někomu něco říct až za několik nebo více let? Proč mu/jí to neřekneš už teď?",
+    category: "",
+  },
+  {
+    number: 138,
+    text: "Popral ses někdy s někým? S kým a kvůli čemu?",
+    category: "",
+  },
 ];
 
 let poznavaci_ = [
@@ -1204,6 +1224,26 @@ let poznavaci_ = [
   {
     number: 134,
     text: "Jakou mobilní aplikaci používáš nejčastěji?",
+    category: "",
+  },
+  {
+    number: 135,
+    text: "Stříhal/a sis někdy sám/sama vlasy?",
+    category: "",
+  },
+  {
+    number: 136,
+    text: "Dal/a jsi někdy někomu schválně špatnou radu?",
+    category: "",
+  },
+  {
+    number: 137,
+    text: "Plánuješ někomu něco říct až za několik nebo více let? Proč mu/jí to neřekneš už teď?",
+    category: "",
+  },
+  {
+    number: 138,
+    text: "Popral ses někdy s někým? S kým a kvůli čemu?",
     category: "",
   },
 ];
