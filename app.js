@@ -4006,31 +4006,31 @@ window.addEventListener("DOMContentLoaded", function () {
         break;
 
       case "cs":
-        window.open("https://deeperdiscussions.com/cs.html");
+        window.location.href = "cs.html";
         break;
 
       case "de":
-        window.open("https://deeperdiscussions.com/de.html");
+        window.location.href = "de.html";
         break;
 
       case "es":
-        window.open("https://deeperdiscussions.com/es.html");
+        window.location.href = "es.html";
         break;
 
       case "fr":
-        window.open("https://deeperdiscussions.com/fr.html");
+        window.location.href = "fr.html";
         break;
 
       case "pl":
-        window.open("https://deeperdiscussions.com/pl.html");
+        window.location.href = "pl.html";
         break;
 
       case "pt":
-        window.open("https://deeperdiscussions.com/pt.html");
+        window.location.href = "pt.html";
         break;
 
       case "ru":
-        window.open("https://deeperdiscussions.com/ru.html");
+        window.location.href = "ru.html";
         break;
     }
     // sidebar.classList.remove("show-sidebar");
