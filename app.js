@@ -3912,38 +3912,56 @@ let URLlanguage;
 window.addEventListener("DOMContentLoaded", function () {
   // h1a.textContent = page_content[`${language_}`].title;
   const URLlanguage = window.location.pathname;
-  switch (URLlanguage) {
-    case "/index.html":
-      language_ = "en";
-      break;
-    case "/cs":
-      language_ = "cs";
-      break;
-    case "/es":
-      language_ = "es";
-      break;
-    case "/de":
-      language_ = "de";
-      break;
-
-    case "/fr":
-      language_ = "fr";
-      break;
-
-    case "/pl":
-      language_ = "pl";
-      break;
-
-    case "/pt":
-      language_ = "pt";
-      break;
-
-    case "/ru":
-      language_ = "ru";
-      break;
-    default:
-      language_ = "en";
+  if (URLlanguage == "") {
+    language_ = "en";
+  } else if (URLlanguage.includes("cs")) {
+    language_ = "cs";
+  } else if (URLlanguage.includes("es")) {
+    language_ = "es";
+  } else if (URLlanguage.includes("de")) {
+    language_ = "de";
+  } else if (URLlanguage.includes("fr")) {
+    language_ = "fr";
+  } else if (URLlanguage.includes("pl")) {
+    language_ = "pl";
+  } else if (URLlanguage.includes("pt")) {
+    language_ = "pt";
+  } else if (URLlanguage.includes("ru")) {
+    language_ = "ru";
   }
+
+  // switch (URLlanguage) {
+  //   case "/index.html":
+  //     language_ = "en";
+  //     break;
+  //   case "/cs":
+  //     language_ = "cs";
+  //     break;
+  //   case "/es":
+  //     language_ = "es";
+  //     break;
+  //   case "/de":
+  //     language_ = "de";
+  //     break;
+
+  //   case "/fr":
+  //     language_ = "fr";
+  //     break;
+
+  //   case "/pl":
+  //     language_ = "pl";
+  //     break;
+
+  //   case "/pt":
+  //     language_ = "pt";
+  //     break;
+
+  //   case "/ru":
+  //     language_ = "ru";
+  //     break;
+  //   default:
+  //     language_ = "en";
+  // }
   if (language_ != "en") {
     h1a.textContent = page_content[`${language_}`].h1a;
     h1b.textContent = page_content[`${language_}`].h1b;
