@@ -4006,7 +4006,8 @@ window.addEventListener("DOMContentLoaded", function () {
         break;
 
       case "cs":
-        window.location.href = "https://deeperdiscussions.com/cs.html";
+        window.location.href = "cs.html";
+        console.log("cesko");
         break;
 
       case "de":
