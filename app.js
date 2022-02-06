@@ -3913,7 +3913,7 @@ window.addEventListener("DOMContentLoaded", function () {
   // h1a.textContent = page_content[`${language_}`].title;
   const URLlanguage = window.location.pathname;
   switch (URLlanguage) {
-    case "":
+    case "/index.html":
       language_ = "en";
       break;
     case "/cs.html":
@@ -3944,7 +3944,7 @@ window.addEventListener("DOMContentLoaded", function () {
     default:
       language_ = "en";
   }
-  if (language_ != "") {
+  if (language_ != "en") {
     h1a.textContent = page_content[`${language_}`].h1a;
     h1b.textContent = page_content[`${language_}`].h1b;
     btnPlay.textContent = page_content[`${language_}`].btnPlay;
