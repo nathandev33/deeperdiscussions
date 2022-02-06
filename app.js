@@ -3916,29 +3916,29 @@ window.addEventListener("DOMContentLoaded", function () {
     case "/index.html":
       language_ = "en";
       break;
-    case "/cs.html":
+    case "/cs":
       language_ = "cs";
       break;
-    case "/es.html":
+    case "/es":
       language_ = "es";
       break;
-    case "/de.html":
+    case "/de":
       language_ = "de";
       break;
 
-    case "/fr.html":
+    case "/fr":
       language_ = "fr";
       break;
 
-    case "/pl.html":
+    case "/pl":
       language_ = "pl";
       break;
 
-    case "/pt.html":
+    case "/pt":
       language_ = "pt";
       break;
 
-    case "/ru.html":
+    case "/ru":
       language_ = "ru";
       break;
     default:
