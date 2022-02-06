@@ -3817,7 +3817,7 @@ const crazy_ = [
     pl: "Gdybyś mógł zmienić jedną rzecz w wyglądzie swojego partnera, co by to było?",
     ru: "Если бы вы могли изменить что-то одно во внешности вашего партнера, что бы это было?",
     pt: "Se pudesse mudar uma coisa sobre a aparência do seu parceiro, o que seria?",
-    cs: "Pokud bys mohl/a změnit jednu věc na vzhledu tvého partnera, co by to bylo?",
+    cs: "Pokud bys mohl/a změnit jednu věc na vzhledu svého partnera, co by to bylo?",
   },
   {
     category: "",

@@ -1051,10 +1051,12 @@ ABOUT
 
   color: var(--primary-btn);
 }
-
+.h3c {
+  text-align: center;
+}
 .save-settings {
   margin-top: 2rem;
-
+  height: auto;
   background: var(--primary-tx);
   width: 90%;
   max-width: 20rem;

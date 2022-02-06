@@ -19,7 +19,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
+    <title class="title">
       DeeperDiscussions - get to know people from a completely different
       perspective
     </title>
@@ -37,15 +37,16 @@
     <div class="hero-image">
       <!-- HEADER -->
       <header class="header">
-        <div class="header-container">
+        <div class="header-container select-hide">
           <h1>
-            TOTO JE ŠPANĚLSKY Get to know your friends from a completely
-            different perspective.
+            <span class="h1a">
+              Get to know your friends from a completely different perspective.
+            </span>
             <br /><br />
-            Enjoy your time together.
+            <span class="h1b"> Enjoy your time together. </span>
           </h1>
 
-          <a href="#play" class="btn hero-btn"> PLAY </a>
+          <a href="#play" class="btn hero-btn btnPlay"> PLAY </a>
         </div>
       </header>
       <!-- END OF HEADER -->
@@ -63,16 +64,16 @@
     <aside class="sidebar" id="sidebar">
       <div>
         <ul class="sidebar-links">
-          <li><a href="#play" class="single-link">Play</a></li>
-          <li><a href="#settings" class="single-link">Settings</a></li>
-          <li><a href="#about" class="single-link">About a game</a></li>
+          <li><a href="#play" class="single-link menuA">Play</a></li>
+          <li><a href="#settings" class="single-link menuB">Settings</a></li>
+          <li><a href="#about" class="single-link menuC">About a game</a></li>
 
           <li>
             <div class="demo">
               <div class="dropdown-container">
                 <select name="select-language" id="select-language">
-                  <option value="en">English</option>
                   <option value="es">español</option>
+                  <option value="en">English</option>
                   <option value="de">Deutsch</option>
                   <option value="cs">Čeština</option>
                   <option value="fr">Français</option>
@@ -102,7 +103,7 @@
             </a>
           </button>
 
-          <button class="shuffle btn">Shuffle</button>
+          <button class="shuffle btn shuffleBtn">Shuffle</button>
         </div>
 
         <div class="card">
@@ -111,20 +112,22 @@
           </p>
         </div>
 
-        <button class="next-btn btn">new</button>
+        <button class="next-btn btn newBtn">new</button>
       </article>
     </div>
     <!-- END OF PLAY -->
 
     <!-- SETTINGS  -->
     <section class="settings close-sidebar" id="settings">
-      <h2 class="section-heading">Settings</h2>
+      <h2 class="section-heading h1Settings">Settings</h2>
       <div class="title-underline"></div>
-      <h3>Select the type(s) of questions you want to play with.</h3>
+      <h3 class="h3a">
+        Select the type(s) of questions you want to play with.
+      </h3>
 
       <article class="options">
         <!-- <div class="question-type"> -->
-        <h4>Exploring</h4>
+        <h4 class="h4a">Exploring</h4>
         <label class="switch">
           <input
             type="checkbox"
@@ -136,49 +139,81 @@
         </label>
         <!-- </div> -->
         <p>
-          These are questions like
-          <em>
-            'When was the last time you cried in front of another person?'</em
-          >, <em>"What do you wish people knew about you?"</em>. They help you
-          make a deep connection with other people and really get to know each
-          other.
+          <span class="span1"> These are questions like </span>
+
+          <span>
+            <em class="span2">
+              'When was the last time you cried in front of another person?'</em
+            >
+          </span>
+
+          ,
+          <span>
+            <em class="span3">"What do you wish people knew about you?".</em>
+          </span>
+
+          <span class="span4">
+            They help you make a deep connection with other people and really
+            get to know each other.
+          </span>
         </p>
 
         <!-- <div class="question-type"> -->
-        <h4>Hypothetical</h4>
+        <h4 class="h4b">Hypothetical</h4>
         <label class="switch">
           <input type="checkbox" class="hypoteticke" data-id="hypoteticke_" />
           <span class="slider round"></span>
         </label>
         <!-- </div> -->
         <p>
-          These are questions like
-          <em>'Would you rather forget who you are or who everyone else is?'</em
-          >,
-          <em
-            >'If you could go back in time and kill Hitler as a newborn baby,
-            would you do it?'</em
-          >. They help you see other people's thinking from a completely
-          different perspective and sometimes they are fun.
-        </p>
+          <span class="span5"> These are questions like </span>
+          <span>
+            <em class="span6"
+              >'Would you rather forget who you are or who everyone else
+              is?'</em
+            >,
+          </span>
 
+          <span>
+            <em class="span7"
+              >'If you could go back in time and kill Hitler as a newborn baby,
+              would you do it?'</em
+            >.
+          </span>
+
+          <span class="span8">
+            They help you see other people's thinking from a completely
+            different perspective and sometimes they are fun.
+          </span>
+        </p>
         <!-- <div class="question-type"> -->
-        <h4>Bold, improper or absurd</h4>
+        <h4 class="h4c">Bold, improper or absurd</h4>
         <label class="switch">
           <input type="checkbox" class="crazy" data-id="crazy_" />
           <span class="slider round"></span>
         </label>
         <!-- </div> -->
         <p>
-          These are questions like
-          <em>'What's the most scandalous photo in your stash?'</em>,
-          <em>'Do you ever pee in the shower?'</em>. They're questions you
-          probably don't often ask others. They're not for everyone, so choose
-          this option especially if you want to play with people who are
-          inclined to have open and unique conversations.
+          <span class="span9"> These are questions like </span>
+
+          <span>
+            <em class="span10"
+              >'What's the most scandalous photo in your stash?'</em
+            >,
+            <em class="span10b"
+              >'If you could change one thing about your partner's appearance,
+              what would it be?'</em
+            >.
+          </span>
+
+          <span class="span11">
+            They're questions you probably don't often ask others. They're not
+            for everyone, so choose this option especially if you want to play
+            with people who are inclined to have open and unique conversations.
+          </span>
         </p>
         <button class="next-btn btn save-settings">
-          <a href="#play" class="scrollTo">Save settings</a>
+          <a href="#play" class="scrollTo saveBtn">Save settings</a>
         </button>
       </article>
     </section>
@@ -187,37 +222,56 @@
     <!-- ABOUT A GAME -->
     <section class="about close-sidebar" id="about">
       <div class="about_sec">
-        <h2 class="section-heading">About a game</h2>
+        <h2 class="section-heading h2b">About a game</h2>
         <div class="title-underline"></div>
-        <h3>Mission</h3>
-        <p>
+        <h3 class="h3x">Mission</h3>
+        <p class="p1">
           The mission of DeeperDiscussions is to enjoy great fun and
           unforgettable moments with friends or people you want to get to know.
           It allows you to get to know people from a different perspective than
           before.
         </p>
-        <h3>Rules</h3>
+        <h3 class="h3b">Rules</h3>
         <p>
-          Invite at least one partner to play and then just draw new questions
-          and talk about your answers. <br />
+          <span class="span12">
+            Invite at least one partner to play and then just draw new questions
+            and talk about your answers.
+          </span>
+
           <br />
-          The game has only 2 strict rules (the others can be modified according
-          to the group's preferences):
+          <br />
+          <span class="span13">
+            The game has only 2 strict rules (the others can be modified
+            according to the group's preferences):
+          </span>
         </p>
 
         <p class="number_list">
-          <strong> 1. Answer questions honestly and openly.</strong> This is the
-          cornerstone of the game, without it the game loses its meaning. <br />
-          <strong>
-            2. Don't talk publicly about what others have answered without the
-            permission of the people playing with you
-          </strong>
-          Answering completely honestly sometimes means being vulnerable. To do
-          this, you need to create an environment of trust.
+          <span class="span14">
+            <strong> 1. Answer questions honestly and openly.</strong>
+          </span>
+
+          <span class="span14b">
+            This is the cornerstone of the game, without it the game loses its
+            meaning.
+          </span>
+          <br />
+
+          <span class="span15">
+            <strong>
+              2. Don't talk publicly about what others have answered without the
+              permission of the people playing with you
+            </strong>
+          </span>
+
+          <span class="span16">
+            Answering completely honestly sometimes means being vulnerable. To
+            do this, you need to create an environment of trust.
+          </span>
         </p>
 
-        <h3>Can I add new questions to the game?</h3>
-        <p>
+        <h3 class="h3c">Can I add new questions to the game?</h3>
+        <p class="p2">
           Sure, email me your suggestions, I'll be happy to add them to the
           game.
         </p>
@@ -226,14 +280,14 @@
 
     <footer class="footer close-sidebar">
       <article class="footer-section">
-        <p>
+        <p class="p3">
           Do you have a good question or an idea to improve the game? Let me
           know at deeperdiscussions@natanael-adamec.cz.
         </p>
 
-        <p>&copy;<span id="date"></span> DeeperDiscussions.com</p>
+        <p class="p4">&copy;<span id="date"></span> DeeperDiscussions.com</p>
 
-        <p>All rights reserved.</p>
+        <p class="p5">All rights reserved.</p>
       </article>
     </footer>
 

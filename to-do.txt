@@ -1,4 +1,1 @@
-budou cs.html, es.html atd.
-při načtení stránky se zkontroluje url. podle toho se přizpůsobí proměnná language.
-
-změnit tuto   "Šel bys na nudistickou pláž? Proč?",
+"Šel bys na nudistickou pláž? Proč?"

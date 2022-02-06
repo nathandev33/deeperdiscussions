@@ -3855,32 +3855,81 @@ let crazy_ = [
 // POLE
 //questions a poznavaci_ jsou duplikáty, když budu přidávat otázky, musím do obou, jinak nebudu mít aktuální!
 
+import { page_content } from "./page_content/page_content.js";
+
 let language_;
+
+const title = document.querySelector(".title");
+const h1a = document.querySelector(".h1a");
+const h1b = document.querySelector(".h1b");
+const btnPlay = document.querySelector(".btnPlay");
+const menuA = document.querySelector(".menuA");
+const menuB = document.querySelector(".menuB");
+const menuC = document.querySelector(".menuC");
+const shuffleBtn = document.querySelector(".shuffleBtn");
+const newBtn = document.querySelector(".newBtn");
+const h1Settings = document.querySelector(".h1Settings");
+const h3a = document.querySelector(".h3a");
+const h4a = document.querySelector(".h4a");
+const h4b = document.querySelector(".h4b");
+const h4c = document.querySelector(".h4c");
+const span1 = document.querySelector(".span1");
+const span2 = document.querySelector(".span2");
+const span3 = document.querySelector(".span3");
+const span4 = document.querySelector(".span4");
+const span5 = document.querySelector(".span5");
+const span6 = document.querySelector(".span6");
+const span7 = document.querySelector(".span7");
+const span8 = document.querySelector(".span8");
+const span9 = document.querySelector(".span9");
+const span10 = document.querySelector(".span10");
+const span10b = document.querySelector(".span10b");
+const span11 = document.querySelector(".span11");
+const saveBtn = document.querySelector(".saveBtn");
+const h2b = document.querySelector(".h2b");
+const h3x = document.querySelector(".h3x");
+const p1 = document.querySelector(".p1");
+const h3b = document.querySelector(".h3b");
+const span12 = document.querySelector(".span12");
+const span13 = document.querySelector(".span13");
+const span14 = document.querySelector(".span14");
+const span14b = document.querySelector(".span14b");
+const span15 = document.querySelector(".span15");
+const span16 = document.querySelector(".span16");
+const h3c = document.querySelector(".h3c");
+const p2 = document.querySelector(".p2");
+const p3 = document.querySelector(".p3");
+const p5 = document.querySelector(".p5");
+
+// if (language_ != "en") {
+// title.textContent = page_content[`${language_}`].title;
+// }
+
 // language = cs;
+// document.querySelector(".header-container").classList.remove("select-hide");
 
 let URLlanguage;
 window.addEventListener("DOMContentLoaded", function () {
+  // h1a.textContent = page_content[`${language_}`].title;
   const URLlanguage = window.location.pathname;
-  console.log("current url is" + URLlanguage);
   switch (URLlanguage) {
     case "/index.html":
       language_ = "en";
-      console.log("angličtina");
       break;
     case "/cs.html":
       language_ = "cs";
-      console.log("čeština");
       break;
     case "/es.html":
       language_ = "es";
       break;
     case "/de.html":
-      language_ = "es";
+      language_ = "de";
       break;
 
     case "/fr.html":
       language_ = "fr";
-      br;
+      break;
+
     case "/pl.html":
       language_ = "pl";
       break;
@@ -3894,6 +3943,48 @@ window.addEventListener("DOMContentLoaded", function () {
       break;
     default:
   }
+  h1a.textContent = page_content[`${language_}`].h1a;
+  h1b.textContent = page_content[`${language_}`].h1b;
+  btnPlay.textContent = page_content[`${language_}`].btnPlay;
+  menuA.textContent = page_content[`${language_}`].menuA;
+  menuB.textContent = page_content[`${language_}`].menuB;
+  menuC.textContent = page_content[`${language_}`].menuC;
+  shuffleBtn.textContent = page_content[`${language_}`].shuffleBtn;
+  newBtn.textContent = page_content[`${language_}`].newBtn;
+  h1Settings.textContent = page_content[`${language_}`].h1Settings;
+  h3a.textContent = page_content[`${language_}`].h3a;
+  h4a.textContent = page_content[`${language_}`].h4a;
+  h4b.textContent = page_content[`${language_}`].h4b;
+  h4c.textContent = page_content[`${language_}`].h4c;
+  span1.textContent = page_content[`${language_}`].span1;
+  span2.textContent = page_content[`${language_}`].span2;
+  span3.textContent = page_content[`${language_}`].span3;
+  span4.textContent = page_content[`${language_}`].span4;
+  span5.textContent = page_content[`${language_}`].span5;
+  span6.textContent = page_content[`${language_}`].span6;
+  span7.textContent = page_content[`${language_}`].span7;
+  span8.textContent = page_content[`${language_}`].span8;
+  span9.textContent = page_content[`${language_}`].span9;
+  span10.textContent = page_content[`${language_}`].span10;
+  span10b.textContent = page_content[`${language_}`].span10b;
+  span11.textContent = page_content[`${language_}`].span11;
+  span12.textContent = page_content[`${language_}`].span12;
+  span13.textContent = page_content[`${language_}`].span13;
+  span14.textContent = page_content[`${language_}`].span14;
+  span14b.textContent = page_content[`${language_}`].span14b;
+  span15.textContent = page_content[`${language_}`].span15;
+  span16.textContent = page_content[`${language_}`].span16;
+  saveBtn.textContent = page_content[`${language_}`].saveBtn;
+  h2b.textContent = page_content[`${language_}`].h2b;
+  h3x.textContent = page_content[`${language_}`].h3x;
+  p1.textContent = page_content[`${language_}`].p1;
+  h3b.textContent = page_content[`${language_}`].h3b;
+  h3c.textContent = page_content[`${language_}`].h3c;
+  p2.textContent = page_content[`${language_}`].p2;
+  p3.textContent = page_content[`${language_}`].p3;
+  p5.textContent = page_content[`${language_}`].p5;
+
+  document.querySelector(".header-container").classList.remove("select-hide");
 
   // console.log(questions[2].text);
   let indexRandomCisla = 0;
@@ -3901,10 +3992,8 @@ window.addEventListener("DOMContentLoaded", function () {
   numberInfo();
   const select = document.getElementById("select-language");
   let selectedLanguage = select.value;
-  console.log(selectedLanguage);
 
   select.addEventListener("change", function handleChange(event) {
-    console.log(event.target.value);
     //podle toho, jaký jazyk vyberu, do proměnné language se uloží příslušný jazyk (klíčové pro rozhodnutí, do jaké databáze se budu dívat)
     selectedLanguage = event.target.value;
 
@@ -3958,9 +4047,11 @@ window.addEventListener("DOMContentLoaded", function () {
     sidebar.classList.toggle("show-sidebar");
   });
 
-  const closeSidebar = document.querySelector(".close-sidebar");
-  closeSidebar.addEventListener("click", () => {
-    sidebar.classList.remove("show-sidebar");
+  const closeSidebar = document.querySelectorAll(".close-sidebar");
+  closeSidebar.forEach((el) => {
+    el.addEventListener("click", () => {
+      sidebar.classList.remove("show-sidebar");
+    });
   });
 
   links.forEach((link) => {
@@ -3975,9 +4066,6 @@ window.addEventListener("DOMContentLoaded", function () {
       cardText.textContent = questions[questionIndex][`${language_}`];
       indexRandomCisla++;
       // console.log("číslo je: " + indexRandomCisla);
-      console.log(questions[questionIndex][`${language_}`]);
-      console.log(questionIndex);
-      console.log(questions[questionIndex].cs);
     } else {
       cardText.textContent =
         "THERE ARE NO NEW QUESTIONS TO DISPLAY IN THIS PACKAGE.";
