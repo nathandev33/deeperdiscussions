@@ -3944,7 +3944,7 @@ window.addEventListener("DOMContentLoaded", function () {
     default:
       language_ = "en";
   }
-  if (language != "") {
+  if (language_ != "") {
     h1a.textContent = page_content[`${language_}`].h1a;
     h1b.textContent = page_content[`${language_}`].h1b;
     btnPlay.textContent = page_content[`${language_}`].btnPlay;
