@@ -263,7 +263,7 @@ let page_content = {
     title:
       "DeeperDiscussions - узнайте людей с совершенно другой точки зрения.",
     h1a: "Встречайте друзей с совершенно другой точки зрения.",
-    h1b: "Наслаждайтесь временем, проведенным вместе",
+    h1b: "Наслаждайтесь временем, проведенным вместе.",
     btnPlay: "игра́ть",
     menuA: "игра́ть",
     menuB: "нала́дка",
@@ -277,34 +277,34 @@ let page_content = {
     h4c: "Смелый, необщительный, нелепый",
     span1: "Это вопросы типа ",
     span2: "'Когда вы в последний раз плакали в присутствии другого человека?'",
-    span3: "'Что бы вы хотели, чтобы люди знали о вас?'",
+    span3: "'Что бы вы хотели, чтобы люди знали о вас?'.",
     span4:
       "Они помогают установить глубокую связь с другими людьми и по-настоящему узнать себя.",
     span5: "Это такие вопросы, как",
     span6: "'Вы бы предпочли забыть, кто вы или кто все остальные?'",
     span7:
-      "'Если бы вы могли вернуться в прошлое и убить Гитлера, когда он был новорожденным ребенком, вы бы это сделали?'",
+      "'Если бы вы могли вернуться в прошлое и убить Гитлера, когда он был новорожденным ребенком, вы бы это сделали?'.",
     span8:
       "Они помогают увидеть мышление других людей с другой точки зрения, а иногда они забавны.",
     span9: "Это такие вопросы, как",
     span10: "'Какая самая скандальная фотография хранится в вашем хранилище?'",
     span10b:
-      "'Если бы вы могли изменить что-то одно во внешности вашего партнера, что бы это было?'",
+      "'Если бы вы могли изменить что-то одно во внешности вашего партнера, что бы это было?'.",
     saveBtn: "сохранить настройки",
     h2b: "Об игре",
     h3x: "Цель",
     p1: "Цель DeeperDiscussions - получить огромное удовольствие и незабываемые моменты с друзьями или людьми, с которыми вы хотите познакомиться поближе. Это позволяет узнать людей с другой точки зрения, чем раньше.",
     h3b: "Правила",
     span12:
-      "Пригласите для игры хотя бы одного партнера, а затем просто рисуйте новые вопросы и обсуждайте свои ответы",
+      "Пригласите для игры хотя бы одного партнера, а затем просто рисуйте новые вопросы и обсуждайте свои ответы.",
     span13:
       "В игре есть только 2 строгих правила (остальные могут быть изменены в соответствии с предпочтениями группы):",
-    span14: "1. Отвечайте на вопросы честно и открыто",
-    span14b: "Это краеугольный камень всей игры, без него игра теряет смысл",
+    span14: "1. Отвечайте на вопросы честно и открыто.",
+    span14b: "Это краеугольный камень всей игры, без него игра теряет смысл.",
     span15:
-      "2. Не говорите публично о том, что ответили другие, без разрешения тех, кто играет с вами",
+      "2. Не говорите публично о том, что ответили другие, без разрешения тех, кто играет с вами.",
     span16:
-      "Отвечать абсолютно честно иногда означает быть уязвимым. Для этого необходимо создать атмосферу доверия",
+      "Отвечать абсолютно честно иногда означает быть уязвимым. Для этого необходимо создать атмосферу доверия.",
     h3c: "Могу ли я добавить свои собственные вопросы в игру?",
     p2: "Пишите мне свои идеи, я буду рад добавить их в игру 🙂 ",
     p3: "У вас есть подсказка для хорошего вопроса или вы хотите помочь с переводом? Сообщите мне об этом по адресу deeperdiscussions@natanael-adamec.cz",
@@ -312,9 +312,9 @@ let page_content = {
   },
   pt: {
     title:
-      "DeeperDiscussions - conhecer pessoas a partir de uma perspectiva completamente diferente",
-    h1a: "Encontrar amigos de uma perspectiva completamente diferente",
-    h1b: "Desfrutem do vosso tempo juntos",
+      "DeeperDiscussions - conhecer pessoas a partir de uma perspectiva completamente diferente.",
+    h1a: "Encontrar amigos de uma perspectiva completamente diferente.",
+    h1b: "Desfrutem do vosso tempo juntos.",
     btnPlay: "Jogar",
     menuA: "Jogar",
     menuB: "configurações",
@@ -328,35 +328,35 @@ let page_content = {
     h4c: "Negrito, insociável, absurdo",
     span1: "Estas são perguntas do tipo ",
     span2: "'Quando foi a última vez que chorou diante de outra pessoa?'",
-    span3: "'O que deseja que as pessoas saibam sobre si?'",
+    span3: "'O que deseja que as pessoas saibam sobre si?'.",
     span4:
-      "Ajudam-no a estabelecer uma ligação profunda com outras pessoas e a conhecer-se realmente a si próprio",
+      "Ajudam-no a estabelecer uma ligação profunda com outras pessoas e a conhecer-se realmente a si próprio.",
     span5: "Estas são perguntas como",
     span6: "'Preferes esquecer quem és ou quem são os outros?'",
     span7:
-      "'Se pudesses voltar atrás no tempo e matar Hitler como um recém-nascido, fá-lo-ias?'",
+      "'Se pudesses voltar atrás no tempo e matar Hitler como um recém-nascido, fá-lo-ias?'.",
     span8:
-      "Ajudam a ver o pensamento das outras pessoas de uma perspectiva diferente e por vezes são divertidos",
+      "Ajudam a ver o pensamento das outras pessoas de uma perspectiva diferente e por vezes são divertidos.",
     span9: "Estas são perguntas como",
-    span10: "'Qual é a foto mais escandalosa no seu armazenamento?'",
+    span10: "'Qual é a foto mais escandalosa no seu armazenamento?'.",
     span10b:
-      "'Se pudesse mudar uma coisa na aparência do seu parceiro, qual seria?'",
+      "'Se pudesse mudar uma coisa na aparência do seu parceiro, qual seria?'.",
     saveBtn: "guardar configurações",
     h2b: "Sobre o jogo",
     h3x: "Alvo",
-    p1: "O objectivo do DeeperDiscussions é ter grandes momentos divertidos e memoráveis com amigos ou pessoas que queira conhecer. Permite-lhe conhecer as pessoas de uma perspectiva diferente da anterior",
+    p1: "O objectivo do DeeperDiscussions é ter grandes momentos divertidos e memoráveis com amigos ou pessoas que queira conhecer. Permite-lhe conhecer as pessoas de uma perspectiva diferente da anterior.",
     h3b: "Regras",
     span12:
-      "Convide pelo menos um parceiro para jogar e depois basta desenhar novas perguntas e falar sobre as suas respostas",
+      "Convide pelo menos um parceiro para jogar e depois basta desenhar novas perguntas e falar sobre as suas respostas.",
     span13:
       "O jogo tem apenas 2 regras estritas (as outras podem ser modificadas de acordo com as preferências do grupo):",
-    span14: "1. responder às perguntas de forma honesta e aberta",
+    span14: "1. responder às perguntas de forma honesta e aberta.",
     span14b:
-      "Esta é a pedra angular de todo o jogo, sem ela o jogo perde o seu significado",
+      "Esta é a pedra angular de todo o jogo, sem ela o jogo perde o seu significado.",
     span15:
-      "2. Não fale publicamente sobre o que os outros responderam sem a permissão das pessoas que brincam consigo",
+      "2. Não fale publicamente sobre o que os outros responderam sem a permissão das pessoas que brincam consigo.",
     span16:
-      "Responder de forma completamente honesta significa, por vezes, ser vulnerável. Para tal, é necessário criar um ambiente de confiança",
+      "Responder de forma completamente honesta significa, por vezes, ser vulnerável. Para tal, é necessário criar um ambiente de confiança.",
     h3c: "Posso acrescentar as minhas próprias perguntas ao jogo?",
     p2: "Enviem-me as vossas ideias por e-mail, terei todo o prazer em adicioná-las ao jogo 🙂 ",
     p3: "Tem uma dica para uma boa pergunta ou quer ajudar na tradução? Avise-me em deeperdiscussions@natanael-adamec.cz",
