@@ -4011,7 +4011,7 @@ window.addEventListener("DOMContentLoaded", function () {
         break;
 
       case "de":
-        window.location.href = "https://deeperdiscussions.com/de.html";
+        window.location.href = "https://google.com/";
         break;
 
       case "es":
