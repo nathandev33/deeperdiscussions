@@ -3996,47 +3996,44 @@ window.addEventListener("DOMContentLoaded", function () {
   const select = document.getElementById("select-language");
   let selectedLanguage = select.value;
 
-  select.addEventListener("change", function handleChange(event) {
+  select.addEventListener("change", function (event) {
     //podle toho, jaký jazyk vyberu, do proměnné language se uloží příslušný jazyk (klíčové pro rozhodnutí, do jaké databáze se budu dívat)
     selectedLanguage = event.target.value;
 
-    switch (language_) {
+    switch (selectedLanguage) {
       case "en":
-        window.location.href = "https://deeperdiscussions.com/";
+        window.location.href = "/";
         break;
 
       case "cs":
         window.location.href = "cs.html";
-        console.log("cesko");
         break;
 
       case "de":
-        window.location.href = "https://google.com/";
+        window.location.href = "de.html";
         break;
 
       case "es":
-        window.location.href = "https://deeperdiscussions.com/es.html";
+        window.location.href = "es.html";
         break;
 
       case "fr":
-        window.location.href = "https://deeperdiscussions.com/fr.html";
+        window.location.href = "fr.html";
         break;
 
       case "pl":
-        window.location.href = "https://deeperdiscussions.com/pl.html";
+        window.location.href = "pl.html";
         break;
 
       case "pt":
-        window.location.href = "https://deeperdiscussions.com/pt.html";
+        window.location.href = "pt.html";
         break;
 
       case "ru":
-        window.location.href = "https://deeperdiscussions.com/ru.html";
+        window.location.href = "ru.html";
         break;
-      default:
-        window.location.href = "https://deeperdiscussions.com/";
     }
-    sidebar.classList.remove("show-sidebar");
+    // sidebar.classList.remove("show-sidebar");
   });
 
   let vygenerovanaRandomCisla = myRandomInts(
