@@ -3855,7 +3855,7 @@ let crazy_ = [
 // POLE
 //questions a poznavaci_ jsou duplikáty, když budu přidávat otázky, musím do obou, jinak nebudu mít aktuální!
 
-import { page_content } from "./page_content/page_content.js";
+import { page_content } from "./page_content.js";
 
 let language_;
 
