@@ -4006,31 +4006,38 @@ window.addEventListener("DOMContentLoaded", function () {
         break;
 
       case "cs":
-        window.location.href = "https://deeperdiscussions.com/cs.html";
+        // window.location.href = "https://deeperdiscussions.com/cs.html";
+        window.location.href = "cs.html";
         break;
 
       case "de":
-        window.location.href = "https://deeperdiscussions.com/de.html";
+        // window.location.href = "https://deeperdiscussions.com/de.html";
+        window.location.href = "de.html";
         break;
 
       case "es":
-        window.location.href = "https://deeperdiscussions.com/es.html";
+        // window.location.href = "https://deeperdiscussions.com/es.html";
+        window.location.href = "es.html";
         break;
 
       case "fr":
-        window.location.href = "https://deeperdiscussions.com/fr.html";
+        // window.location.href = "https://deeperdiscussions.com/fr.html";
+        window.location.href = "fr.html";
         break;
 
       case "pl":
-        window.location.href = "https://deeperdiscussions.com/pl.html";
+        // window.location.href = "https://deeperdiscussions.com/pl.html";
+        window.location.href = "pl.html";
         break;
 
       case "pt":
-        window.location.href = "https://deeperdiscussions.com/pt.html";
+        // window.location.href = "https://deeperdiscussions.com/pt.html";
+        window.location.href = "pt.html";
         break;
 
       case "ru":
-        window.location.href = "https://deeperdiscussions.com/ru.html";
+        // window.location.href = "https://deeperdiscussions.com/ru.html";
+        window.location.href = "ru.html";
         break;
     }
     // sidebar.classList.remove("show-sidebar");
