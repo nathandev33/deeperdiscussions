@@ -3913,7 +3913,7 @@ window.addEventListener("DOMContentLoaded", function () {
   // h1a.textContent = page_content[`${language_}`].title;
   const URLlanguage = window.location.pathname;
   switch (URLlanguage) {
-    case "/index.html":
+    case "":
       language_ = "en";
       break;
     case "/cs.html":
@@ -3942,47 +3942,50 @@ window.addEventListener("DOMContentLoaded", function () {
       language_ = "ru";
       break;
     default:
+      language_ = "en";
   }
-  h1a.textContent = page_content[`${language_}`].h1a;
-  h1b.textContent = page_content[`${language_}`].h1b;
-  btnPlay.textContent = page_content[`${language_}`].btnPlay;
-  menuA.textContent = page_content[`${language_}`].menuA;
-  menuB.textContent = page_content[`${language_}`].menuB;
-  menuC.textContent = page_content[`${language_}`].menuC;
-  shuffleBtn.textContent = page_content[`${language_}`].shuffleBtn;
-  newBtn.textContent = page_content[`${language_}`].newBtn;
-  h1Settings.textContent = page_content[`${language_}`].h1Settings;
-  h3a.textContent = page_content[`${language_}`].h3a;
-  h4a.textContent = page_content[`${language_}`].h4a;
-  h4b.textContent = page_content[`${language_}`].h4b;
-  h4c.textContent = page_content[`${language_}`].h4c;
-  span1.textContent = page_content[`${language_}`].span1;
-  span2.textContent = page_content[`${language_}`].span2;
-  span3.textContent = page_content[`${language_}`].span3;
-  span4.textContent = page_content[`${language_}`].span4;
-  span5.textContent = page_content[`${language_}`].span5;
-  span6.textContent = page_content[`${language_}`].span6;
-  span7.textContent = page_content[`${language_}`].span7;
-  span8.textContent = page_content[`${language_}`].span8;
-  span9.textContent = page_content[`${language_}`].span9;
-  span10.textContent = page_content[`${language_}`].span10;
-  span10b.textContent = page_content[`${language_}`].span10b;
-  span11.textContent = page_content[`${language_}`].span11;
-  span12.textContent = page_content[`${language_}`].span12;
-  span13.textContent = page_content[`${language_}`].span13;
-  span14.textContent = page_content[`${language_}`].span14;
-  span14b.textContent = page_content[`${language_}`].span14b;
-  span15.textContent = page_content[`${language_}`].span15;
-  span16.textContent = page_content[`${language_}`].span16;
-  saveBtn.textContent = page_content[`${language_}`].saveBtn;
-  h2b.textContent = page_content[`${language_}`].h2b;
-  h3x.textContent = page_content[`${language_}`].h3x;
-  p1.textContent = page_content[`${language_}`].p1;
-  h3b.textContent = page_content[`${language_}`].h3b;
-  h3c.textContent = page_content[`${language_}`].h3c;
-  p2.textContent = page_content[`${language_}`].p2;
-  p3.textContent = page_content[`${language_}`].p3;
-  p5.textContent = page_content[`${language_}`].p5;
+  if (language != "") {
+    h1a.textContent = page_content[`${language_}`].h1a;
+    h1b.textContent = page_content[`${language_}`].h1b;
+    btnPlay.textContent = page_content[`${language_}`].btnPlay;
+    menuA.textContent = page_content[`${language_}`].menuA;
+    menuB.textContent = page_content[`${language_}`].menuB;
+    menuC.textContent = page_content[`${language_}`].menuC;
+    shuffleBtn.textContent = page_content[`${language_}`].shuffleBtn;
+    newBtn.textContent = page_content[`${language_}`].newBtn;
+    h1Settings.textContent = page_content[`${language_}`].h1Settings;
+    h3a.textContent = page_content[`${language_}`].h3a;
+    h4a.textContent = page_content[`${language_}`].h4a;
+    h4b.textContent = page_content[`${language_}`].h4b;
+    h4c.textContent = page_content[`${language_}`].h4c;
+    span1.textContent = page_content[`${language_}`].span1;
+    span2.textContent = page_content[`${language_}`].span2;
+    span3.textContent = page_content[`${language_}`].span3;
+    span4.textContent = page_content[`${language_}`].span4;
+    span5.textContent = page_content[`${language_}`].span5;
+    span6.textContent = page_content[`${language_}`].span6;
+    span7.textContent = page_content[`${language_}`].span7;
+    span8.textContent = page_content[`${language_}`].span8;
+    span9.textContent = page_content[`${language_}`].span9;
+    span10.textContent = page_content[`${language_}`].span10;
+    span10b.textContent = page_content[`${language_}`].span10b;
+    span11.textContent = page_content[`${language_}`].span11;
+    span12.textContent = page_content[`${language_}`].span12;
+    span13.textContent = page_content[`${language_}`].span13;
+    span14.textContent = page_content[`${language_}`].span14;
+    span14b.textContent = page_content[`${language_}`].span14b;
+    span15.textContent = page_content[`${language_}`].span15;
+    span16.textContent = page_content[`${language_}`].span16;
+    saveBtn.textContent = page_content[`${language_}`].saveBtn;
+    h2b.textContent = page_content[`${language_}`].h2b;
+    h3x.textContent = page_content[`${language_}`].h3x;
+    p1.textContent = page_content[`${language_}`].p1;
+    h3b.textContent = page_content[`${language_}`].h3b;
+    h3c.textContent = page_content[`${language_}`].h3c;
+    p2.textContent = page_content[`${language_}`].p2;
+    p3.textContent = page_content[`${language_}`].p3;
+    p5.textContent = page_content[`${language_}`].p5;
+  }
 
   document.querySelector(".header-container").classList.remove("select-hide");
 
