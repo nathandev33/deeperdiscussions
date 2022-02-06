@@ -3912,56 +3912,38 @@ let URLlanguage;
 window.addEventListener("DOMContentLoaded", function () {
   // h1a.textContent = page_content[`${language_}`].title;
   const URLlanguage = window.location.pathname;
-  if (URLlanguage == "") {
-    language_ = "en";
-  } else if (URLlanguage.includes("cs")) {
-    language_ = "cs";
-  } else if (URLlanguage.includes("es")) {
-    language_ = "es";
-  } else if (URLlanguage.includes("de")) {
-    language_ = "de";
-  } else if (URLlanguage.includes("fr")) {
-    language_ = "fr";
-  } else if (URLlanguage.includes("pl")) {
-    language_ = "pl";
-  } else if (URLlanguage.includes("pt")) {
-    language_ = "pt";
-  } else if (URLlanguage.includes("ru")) {
-    language_ = "ru";
+  switch (URLlanguage) {
+    case "/index.html":
+      language_ = "en";
+      break;
+    case "/cs.html":
+      language_ = "cs";
+      break;
+    case "/es.html":
+      language_ = "es";
+      break;
+    case "/de.html":
+      language_ = "de";
+      break;
+
+    case "/fr.html":
+      language_ = "fr";
+      break;
+
+    case "/pl.html":
+      language_ = "pl";
+      break;
+
+    case "/pt.html":
+      language_ = "pt";
+      break;
+
+    case "/ru.html":
+      language_ = "ru";
+      break;
+    default:
+      language_ = "en";
   }
-
-  // switch (URLlanguage) {
-  //   case "/index.html":
-  //     language_ = "en";
-  //     break;
-  //   case "/cs":
-  //     language_ = "cs";
-  //     break;
-  //   case "/es":
-  //     language_ = "es";
-  //     break;
-  //   case "/de":
-  //     language_ = "de";
-  //     break;
-
-  //   case "/fr":
-  //     language_ = "fr";
-  //     break;
-
-  //   case "/pl":
-  //     language_ = "pl";
-  //     break;
-
-  //   case "/pt":
-  //     language_ = "pt";
-  //     break;
-
-  //   case "/ru":
-  //     language_ = "ru";
-  //     break;
-  //   default:
-  //     language_ = "en";
-  // }
   if (language_ != "en") {
     h1a.textContent = page_content[`${language_}`].h1a;
     h1b.textContent = page_content[`${language_}`].h1b;
@@ -4020,35 +4002,35 @@ window.addEventListener("DOMContentLoaded", function () {
 
     switch (selectedLanguage) {
       case "en":
-        window.location.href = "https://deeperdiscussions.com";
+        window.location.href = "/";
         break;
 
       case "cs":
-        window.location.href = "https://deeperdiscussions.com/cs.html";
+        window.location.href = "cs.html";
         break;
 
       case "de":
-        window.location.href = "https://deeperdiscussions.com/de.html";
+        window.location.href = "de.html";
         break;
 
       case "es":
-        window.location.href = "https://deeperdiscussions.com/es.html";
+        window.location.href = "es.html";
         break;
 
       case "fr":
-        window.location.href = "https://deeperdiscussions.com/fr.html";
+        window.location.href = "fr.html";
         break;
 
       case "pl":
-        window.location.href = "https://deeperdiscussions.com/pl.html";
+        window.location.href = "pl.html";
         break;
 
       case "pt":
-        window.location.href = "https://deeperdiscussions.com/pt.html";
+        window.location.href = "pt.html";
         break;
 
       case "ru":
-        window.location.href = "https://deeperdiscussions.com/ru.html";
+        window.location.href = "ru.html";
         break;
     }
     // sidebar.classList.remove("show-sidebar");
