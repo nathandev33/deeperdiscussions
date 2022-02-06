@@ -68,7 +68,7 @@ let page_content = {
     h4c: "Atrevido, insociable, absurdo",
     span1: "Son preguntas del tipo ",
     span2: "'¿Cuándo fue la última vez que lloraste delante de otra persona?'",
-    span3: "'¿Qué te gustaría que la gente supiera de ti?'",
+    span3: "'¿Qué te gustaría que la gente supiera de ti?'.",
     span4:
       "Te ayudan a establecer una conexión profunda con otras personas y a conocerte de verdad",
     span5: "Son preguntas como",
@@ -84,23 +84,23 @@ let page_content = {
     saveBtn: "guardar configuración",
     h2b: "Sobre el juego",
     h3x: "Objetivo",
-    p1: "El objetivo de DeeperDiscussions es pasar momentos divertidos y memorables con amigos o personas que quieres conocer. Te permite conocer a la gente desde una perspectiva diferente a la anterior",
+    p1: "El objetivo de DeeperDiscussions es pasar momentos divertidos y memorables con amigos o personas que quieres conocer. Te permite conocer a la gente desde una perspectiva diferente a la anterior.",
     h3b: "Reglas",
     span12:
-      "Invita al menos a un compañero a jugar y luego sólo dibuja nuevas preguntas y habla de tus respuestas",
+      "Invita al menos a un compañero a jugar y luego sólo dibuja nuevas preguntas y habla de tus respuestas.",
     span13:
       "El juego sólo tiene 2 reglas estrictas (las demás pueden modificarse según las preferencias del grupo):",
-    span14: "1. Responde a las preguntas de forma honesta y abierta",
+    span14: "1. Responde a las preguntas de forma honesta y abierta.",
     span14b:
-      "Es la piedra angular de todo el juego, sin ella el juego pierde su sentido",
+      "Es la piedra angular de todo el juego, sin ella el juego pierde su sentido.",
     span15:
-      "2. No hables públicamente de lo que otros han respondido sin el permiso de las personas que juegan contigo",
+      "2. No hables públicamente de lo que otros han respondido sin el permiso de las personas que juegan contigo.",
     span16:
-      "Responder con total honestidad a veces significa ser vulnerable. Para ello, hay que crear un entorno de confianza",
+      "Responder con total honestidad a veces significa ser vulnerable. Para ello, hay que crear un entorno de confianza.",
     h3c: "¿Puedo añadir mis propias preguntas al juego?",
     p2: "Envíame por correo electrónico tus ideas, estaré encantado de añadirlas al juego 🙂 ",
     p3: "¿Tiene un consejo para una buena pregunta o quiere ayuda para traducir? Avísame en deeperdiscussions@natanael-adamec.cz",
-    p5: "All rights reserved.",
+    p5: "",
   },
   de: {
     title:
@@ -207,7 +207,7 @@ let page_content = {
     h3c: "Puis-je ajouter mes propres questions au jeu ?",
     p2: "Envoyez-moi vos idées par courriel, je serai heureux de les ajouter au jeu 🙂 ",
     p3: "Vous avez un conseil pour une bonne question ou vous voulez de l'aide pour traduire ? Faites-moi signe à deeperdiscussions@natanael-adamec.cz",
-    p5: "All rights reserved.",
+    p5: "",
   },
   pl: {
     title: "DeeperDiscussions - poznaj ludzi z zupełnie innej perspektywy",
@@ -257,7 +257,7 @@ let page_content = {
     h3c: "Czy mogę dodawać własne pytania do gry?",
     p2: "Prześlij mi mailem swoje pomysły, chętnie dodam je do gry 🙂 ",
     p3: "Masz pomysł na dobre pytanie lub chcesz pomóc w tłumaczeniu? Daj mi znać na deeperdiscussions@natanael-adamec.cz",
-    p5: "All rights reserved.",
+    p5: "",
   },
   ru: {
     title:
