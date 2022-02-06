@@ -4078,14 +4078,13 @@ window.addEventListener("DOMContentLoaded", function () {
   previousCardBtn.addEventListener("click", function () {
     if (indexRandomCisla > 0) {
       indexRandomCisla--;
-      questionIndex = vygenerovanaRandomCisla[indexRandomCisla - 1];
+      let questionIndex = vygenerovanaRandomCisla[indexRandomCisla - 1];
       numberInfo();
       // console.log("index je: " + questionIndex);
       cardText.textContent = questions[questionIndex][`${language_}`];
       // console.log("číslo je: " + indexRandomCisla);
     } else {
-      cardText.textContent =
-        "YOU'RE AT THE VERY BEGINNING, DRAW THE FIRST QUESTION.";
+      cardText.textContent = "?";
       indexRandomCisla == 0;
     }
   });

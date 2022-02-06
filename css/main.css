@@ -547,6 +547,7 @@ PLAY
   margin: 0;
   padding: 0;
   justify-self: flex-end;
+  text-transform: capitalize;
 }
 .shuffle:hover {
   color: var(--primary-sub-headline);

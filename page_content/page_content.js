@@ -54,7 +54,7 @@ let page_content = {
     title:
       "DeeperDiscussions: conozca a las personas desde una perspectiva completamente diferente.",
     h1a: "Conocer a los amigos desde una perspectiva completamente diferente.",
-    h1b: "Disfruten de su tiempo juntos",
+    h1b: "Disfruten de su tiempo juntos.",
     btnPlay: "Jugar",
     menuA: "Jugar",
     menuB: "ajustes",
