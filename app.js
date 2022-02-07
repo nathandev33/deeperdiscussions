@@ -4305,8 +4305,8 @@ window.addEventListener("DOMContentLoaded", function () {
     case "/ru.html":
       language_ = "ru";
       break;
-    default:
-      language_ = "en";
+    // default:
+    //   language_ = "en";
   }
   if (language_ != "en") {
     h1a.textContent = page_content[`${language_}`].h1a;
