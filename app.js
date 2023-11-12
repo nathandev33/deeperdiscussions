@@ -3791,7 +3791,7 @@ let page_content = {
       'Odpovídat zcela upřímně někdy znamená být zranitelný. K tomu je potřeba vytvořit prostředí důvěry.',
     h3c: 'Můžu do hry přidat vlastní otázky?',
     p2: 'Napiš mi své nápady, rád je do hry přidám 🙂',
-    p3: 'Máš tip na dobrou otázku nebo nápad, jak hru vylepšit? Dej mi vědět na deeperdiscussions@natanael-adamec.cz',
+    p3: 'Máš tip na dobrou otázku nebo nápad, jak hru vylepšit? Dej mi vědět na nateadamec@gmail.com',
     p5: 'Všechna práva vyhrazena.',
   },
   es: {
@@ -3843,7 +3843,7 @@ let page_content = {
       'Responder con total honestidad a veces significa ser vulnerable. Para ello, hay que crear un entorno de confianza.',
     h3c: '¿Puedo añadir mis propias preguntas al juego?',
     p2: 'Envíame por correo electrónico tus ideas, estaré encantado de añadirlas al juego 🙂 ',
-    p3: '¿Tiene un consejo para una buena pregunta o quiere ayuda para traducir? Avísame en deeperdiscussions@natanael-adamec.cz',
+    p3: '¿Tiene un consejo para una buena pregunta o quiere ayuda para traducir? Avísame en nateadamec@gmail.com',
     p5: '',
   },
   de: {
@@ -3897,7 +3897,7 @@ let page_content = {
       'Völlig ehrlich zu antworten, bedeutet manchmal, verletzlich zu sein. Dazu müssen Sie ein Umfeld des Vertrauens schaffen.',
     h3c: 'Kann ich dem Spiel meine eigenen Fragen hinzufügen?',
     p2: 'Mailt mir eure Ideen, ich werde sie gerne in das Spiel einbauen 🙂 ',
-    p3: 'Haben Sie einen Tipp für eine gute Frage oder brauchen Sie Hilfe beim Übersetzen? Informieren Sie mich unter deeperdiscussions@natanael-adamec.cz',
+    p3: 'Haben Sie einen Tipp für eine gute Frage oder brauchen Sie Hilfe beim Übersetzen? Informieren Sie mich unter nateadamec@gmail.com',
     p5: 'All rights reserved.',
   },
   fr: {
@@ -3950,7 +3950,7 @@ let page_content = {
       'Répondre en toute honnêteté signifie parfois être vulnérable. Pour ce faire, vous devez créer un environnement de confiance.',
     h3c: 'Puis-je ajouter mes propres questions au jeu ?',
     p2: 'Envoyez-moi vos idées par courriel, je serai heureux de les ajouter au jeu 🙂 ',
-    p3: "Vous avez un conseil pour une bonne question ou vous voulez de l'aide pour traduire ? Faites-moi signe à deeperdiscussions@natanael-adamec.cz",
+    p3: "Vous avez un conseil pour une bonne question ou vous voulez de l'aide pour traduire ? Faites-moi signe à nateadamec@gmail.com",
     p5: '',
   },
   pl: {
@@ -4000,7 +4000,7 @@ let page_content = {
       'Odpowiadanie całkowicie szczerze oznacza czasem bycie wrażliwym. Aby to osiągnąć, trzeba stworzyć środowisko zaufania.',
     h3c: 'Czy mogę dodawać własne pytania do gry?',
     p2: 'Prześlij mi mailem swoje pomysły, chętnie dodam je do gry 🙂 ',
-    p3: 'Masz pomysł na dobre pytanie lub chcesz pomóc w tłumaczeniu? Daj mi znać na deeperdiscussions@natanael-adamec.cz',
+    p3: 'Masz pomysł na dobre pytanie lub chcesz pomóc w tłumaczeniu? Daj mi znać na nateadamec@gmail.com',
     p5: '',
   },
   ru: {
@@ -4051,7 +4051,7 @@ let page_content = {
       'Отвечать абсолютно честно иногда означает быть уязвимым. Для этого необходимо создать атмосферу доверия.',
     h3c: 'Могу ли я добавить свои собственные вопросы в игру?',
     p2: 'Пишите мне свои идеи, я буду рад добавить их в игру 🙂 ',
-    p3: 'У вас есть подсказка для хорошего вопроса или вы хотите помочь с переводом? Сообщите мне об этом по адресу deeperdiscussions@natanael-adamec.cz',
+    p3: 'У вас есть подсказка для хорошего вопроса или вы хотите помочь с переводом? Сообщите мне об этом по адресу nateadamec@gmail.com',
     p5: '',
   },
   pt: {
@@ -4103,7 +4103,7 @@ let page_content = {
       'Responder de forma completamente honesta significa, por vezes, ser vulnerável. Para tal, é necessário criar um ambiente de confiança.',
     h3c: 'Posso acrescentar as minhas próprias perguntas ao jogo?',
     p2: 'Enviem-me as vossas ideias por e-mail, terei todo o prazer em adicioná-las ao jogo 🙂 ',
-    p3: 'Tem uma dica para uma boa pergunta ou quer ajudar na tradução? Avise-me em deeperdiscussions@natanael-adamec.cz',
+    p3: 'Tem uma dica para uma boa pergunta ou quer ajudar na tradução? Avise-me em nateadamec@gmail.com',
     p5: '',
   },
 }
